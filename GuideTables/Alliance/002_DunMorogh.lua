@@ -11,7 +11,7 @@ Description: Guide Serie - 002 DunMorogh
     1.04.2
         -- no changes in here for this revision
 	1.04.3
-		-- Added color codes
+		-- Added color codes 
 			Fixed various spelling errors			
 ------------------------------------------------------
 Connection:
