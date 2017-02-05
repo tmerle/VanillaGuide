@@ -5,7 +5,8 @@ VanillaGuide aim to cover the hole for an in-game guide for Vanilla WoW. The Add
     Step-by-Step Zone Guides (from Joana and Brian Kopps work)
     Hints and Tips for various Quests
     MetaMapBWP Integration
-Added in this for is color coding for Alliance quests.
+Added in this fork is color coding for Alliance quests.
+
 Some minor typos and locations corrected aswell.
 
 > **NOTE:**
