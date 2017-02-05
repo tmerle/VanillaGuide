@@ -58,7 +58,7 @@ Table_002_ElwynnForest = {
 			[30] = { str = "Go south to the Fargodeep Mine at 39,82 and kill the kobold until you complete all 3 quests #DOQUESTThe Fargodeep Mine#, #DOQUESTGold Dust Exchange#, and #DOQUEATKobold Candles# Make sure you go in the lower entrance so The Fargodeep Mine is easier", x = 39, y = 82, zone = "Elwynn Forest" },
 			[31] = { str = "Once all 3 are done go to the Stonefield Farm just up the hill east at 34,84 and accept #ACCEPTLost Necklace# SKIP #VIDEOPrincess Must Die!# if you cannot fight 3 mobs at a time.", x = 34, y = 84, zone = "Elwynn Forest" },
 			[32] = { str = "Go east to the Maclure Vinyard at 43,90 and accept #ACCEPTYoung Lovers#", x = 43, y = 90, zone = "Elwynn Forest" },
-			[33] = { str = "Go to 43,85 and turn in #TURNINLost Necklace# accept #ACCEPTPie For Billy# then kill boars until it’s finished.", x = 43, y = 85, zone = "Elwynn Forest" },
+			[33] = { str = "Go to 43,86 and turn in #TURNINLost Necklace# accept #ACCEPTPie For Billy# then kill boars until it’s finished.", x = 43, y = 86, zone = "Elwynn Forest" },
 			[34] = { str = "Go back west to 34,84 and turn in #TURNINPie For Billy# and accept #ACCEPTBack to Billy#", x = 34, y = 84, zone = "Elwynn Forest" },
 			[35] = { str = "Go west some to the river at 29,85 and turn in #TURNINYoung Lovers# accept #ACCEPTSpeak with Gramma#", x = 29, y = 85, zone = "Elwynn Forest" },
 			[36] = { str = "Go back to 34,84 and turn in #TURNINSpeak with Gramma# in the house, accept #ACCEPTNote to William#", x = 34, y = 84, zone = "Elwynn Forest" },
