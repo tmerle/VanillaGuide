@@ -77,7 +77,7 @@ Table_002_ElwynnForest = {
 			[49] = { str = "Run just west of the waterfall at 72,60 touch the mangled body and turn in #TURNINFind the Lost Guards# accept #ACCEPTDiscover Rolf’s Fate# You should now be level 8, if not grind until you are.", x = 72, y = 60, zone = "Elwynn Forest" },
 			[50] = { str = "Go to the murloc camp at 79,55 and loot the mangled body there (might need a group, but usually always people here) and turn in #TURNINDiscover Rolf’s Fate# accept #ACCEPTReport to Thomas#", x = 79, y = 55, zone = "Elwynn Forest" },
 			[51] = { str = "Go south to 81,66 and turn in #TURNIN“A Bundle of Trouble”#", x = 81, y = 66, zone = "Elwynn Forest" },
-			[52] = { str = "Cross the road and go south and east and finish killing the bears and wolves for #DOQUEST“Protect the Frontier”# bears are kinda scarce so you might have to search." },
+			[52] = { str = "Cross the road and go south and east and finish killing the bears and wolves for #DOQUEST“Protect the Frontier”# bears are kinda scarce so you might have to search. Keep next step in mind." },
 			[53] = { str = "While doing this you can get some, if not all, of the red bandannas for  #DOQUESTRed Linen Goods# at 90,78", x = 90, y = 78, zone = "Elwynn Forest" },
 			[54] = { str = "Go back to 73,72 near the bridge and turn in #TURNIN“Protect the Frontier”# and #TURNIN“Report to Thomas”# accept #ACCEPT“Deliver Thomas' Report”#", x = 73, y = 72, zone = "Elwynn Forest" },
 			[55] = { str = "Go down to the pumpkin patch at 69,78 and kill the rest of the defias for #DOQUESTRed Linen Goods# ", x = 69, y = 78, zone = "Elwynn Forest" },
