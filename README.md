@@ -5,6 +5,8 @@ VanillaGuide aim to cover the hole for an in-game guide for Vanilla WoW. The Add
     Step-by-Step Zone Guides (from Joana and Brian Kopps work)
     Hints and Tips for various Quests
     MetaMapBWP Integration
+Added in this for is color coding for Alliance quests.
+Some minor typos and locations corrected aswell.
 
 > **NOTE:**
 >
@@ -21,15 +23,4 @@ and here're the links to the REAL guide:
     http://www.joanasworld.com/azeroth.htm
     http://www.joanasworld.com/Joanas1-60Guide.pdf
 
-
-Donations
-=========
-If you would like to support this project, you may donate to our development fund via Paypal.
-
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LSR84M2ZJEPJS)
-
-Any funds donated will be used to help further development on this project, by purchasing equipment, etc.
-
-We are always looking for more volunteers to help with coding, customizations, etc, so feel free to contact us.
-
-Thank you.
+A thank you to [rsheep](https://github.com/rsheep/VanillaGuide) for the original work, and to [KasVital](https://github.com/KasVital/VanillaGuide) for work on the color coding.
