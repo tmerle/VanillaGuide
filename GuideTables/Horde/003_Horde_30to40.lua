@@ -59,7 +59,7 @@ Table_003_Horde_30to40 = {
 			[9] = { str = "Then do #DOQUESTRaising Spirits#, just to the left of Hammerfall all around [64,37].  Then turn it in ... accept #ACCEPTRaising Spirits# part2", x = 64, y = 37, zone = "Arathi Highlands" },
 			[10] = { str = "Turn in #TURNINRaising Spirits# part2 ... accept #ACCEPTRaising Spirits# part3" },
 			[11] = { str = "Turn in #TURNINRaising Spirits# part3 ... skip #NPCGuile of the Raptor# for now" },
-			[12] = { str = "Hearth to Orgrimmar." },
+			[12] = { str = "Hearth to Orgrimmar. Put [Frostmaw's Mane] into the bank to save bagspace. It will not be turned in until level 43." },
 			[13] = { str = "Fly to XRs." },
 			[14] = { str = "Run west in the XRs ... accept #ACCEPTThe Swarm Grows# " },
 			[15] = { str = "Then run west from the XRs to the guy in the hut ... accept #ACCEPTThe Kolkar of Desolace# " },
