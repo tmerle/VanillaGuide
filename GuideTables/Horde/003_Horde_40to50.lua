@@ -110,7 +110,7 @@ Table_003_Horde_40to50 = {
 			[5] = { str = "04) Turn in #TURNIN\"Dream Dust in the Swamp\"# " },
 			[6] = { str = "05) Make BB your home." },
 			[7] = { str = "06) Then go do in the following order:" },
-			[8] = { str = "07) #DOQUEST\"The Bloodsail Buccaneers\"# along with #DOQUEST\"Up to Snuff\"# and #DOQUEST\"Keep An Eye Out\"# (these are done at the shore around 31.80, and some more mobs can be found at 27.70).  Also do #DOQUEST\"Stranglethorn Fever\"# (for #DOQUEST\"Stranglethorn Fever\"# you will need one gorilla fang, and the witch doctor is in the cave at 34.60)", x = 31, y = 80, zone = "Stranglethorn Vale" },
+			[8] = { str = "07) #DOQUEST\"The Bloodsail Buccaneers\"# along with #DOQUEST\"Up to Snuff\"# and #DOQUEST\"Keep An Eye Out\"# (these are done at the shore around 31.80, and some more mobs can be found at 27.70).  Also do #DOQUEST\"Stranglethorn Fever\"# (for #DOQUEST\"Stranglethorn Fever\"# you will need 10x Gorilla Fang, and the witch doctor is in the cave at 34.60)", x = 31, y = 80, zone = "Stranglethorn Vale" },
 			[9] = { str = "08) #DOQUEST\"Mok'thardin's Enchantment\"# part4 along with #DOQUEST\"Akiris by the Bundle\"# (25.63)", x = 25, y = 63, zone = "Stranglethorn Vale" },
 			[10] = { str = "09) #DOQUEST\"Fool's Stout\"# along with #DOQUEST\"Voodoo Dues\"# (34.52 and 39.58)", x = 34, y = 52, zone = "Stranglethorn Vale" },
 			[11] = { str = "10) #DOQUEST\"Skullsplitter Tusks\"# along with #DOQUEST\"Split Bone Necklace\"# " },
