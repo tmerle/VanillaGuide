@@ -23,5 +23,6 @@ and here're the links to the REAL guide:
     http://www.joanasworld.com/meet_joana_mancow.html
     http://www.joanasworld.com/azeroth.htm
     http://www.joanasworld.com/Joanas1-60Guide.pdf
+    http://www.oocities.org/iliektosuxit/
 
 A thank you to [rsheep](https://github.com/rsheep/VanillaGuide) for the original work, and to [KasVital](https://github.com/KasVital/VanillaGuide) for work on the color coding.
