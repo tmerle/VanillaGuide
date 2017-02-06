@@ -10,6 +10,8 @@ Description: Guide Serie - 003 From Lvl 50 to Lvl 60
             from level 50 to lever 60
     1.04.2
     	-- no changes in here for this revision
+    1.04.3
+	-- no changes in here for this revision
 ------------------------------------------------------
 Connection:
 --]]--------------------------------------------------
