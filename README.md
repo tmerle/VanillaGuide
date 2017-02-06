@@ -13,7 +13,7 @@ Corrected and standardized coords, corrected spelling and tried to make stuff ea
 
 **To get a better experience, I reccomend getting the following addons aswell**
 > - [MetaMap](http://addons.us.to/addon/metamap), works with VanillaGuide to make dots and tracking on map.
-> - [Questie](https://github.com/AeroScripts/QuestieDev), great for tracking several quests.
+> - [Questie](https://github.com/AeroScripts/QuestieDev), great for tracking quests, and adds minimap icons.
 > - [ExtendedQuestLog3](http://addons.us.to/addon/eql3), to get a better overview of your quests.
 
 
