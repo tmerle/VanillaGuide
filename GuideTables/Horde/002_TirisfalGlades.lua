@@ -10,6 +10,8 @@ Description: Guide Serie - 002 Tirisfal Glades
             from level 1 to lever 12
     1.04.2
     	-- no changes in here for this revision
+    1.04.3
+	-- no changes in here for this revision
 ------------------------------------------------------
 Connection:
 --]]--------------------------------------------------
