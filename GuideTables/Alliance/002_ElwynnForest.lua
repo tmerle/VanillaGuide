@@ -139,7 +139,7 @@ Table_002_ElwynnForest = {
 			[30] = { str = "Look for Mountaineer Kadrell roaming the town, and accept #ACCEPT“Rat Catching”#" },
 			[31] = { str = "Kill troggs from (27,53) and north for #DOQUEST“In Defense of the King's Lands”# and #DOQUEST“The Trogg Threat”#", x = 27, y = 53, zone = "Loch Modan" },
 			[32] = { str = "Go back to (22,73) and turn them both in", x = 22, y = 73, zone = "Loch Modan" },
-			[33] = { str = "Go north to the tower at (24,18) and turn in #TURNIN“Stormpike's Delivery”#", x = 24, y = 18, zone = "Loch Modan" },
+			[33] = { str = "Go north to the bunker at (25,18) and turn in #TURNIN“Stormpike's Delivery”#", x = 25, y = 18, zone = "Loch Modan" },
 			[34] = { str = "You should be level 12 now or close to it. You can grind if you’d like. Follow the Night Elf to IF guide but just go backwards. You’re going to go north through the wetlands to menethil, then take the boat to auberdine from here." },
 		}
 	},
