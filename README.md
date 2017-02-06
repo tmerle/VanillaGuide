@@ -9,11 +9,14 @@ Major change in this fork is color coding for Alliance quests.
 
 Corrected and standardized coords, corrected spelling and tried to make stuff easier to read.
 
-> **NOTE:**
->
-> - This Addon is developed for WoW 1.12.1 (5875), also known as Vanilla WoW
-> - Tested and adjusted for Elysium Project/ Zeth'Kur
->
+> **To get a better experience, I reccomend getting the following addons aswell**
+> - [MetaMap](http://addons.us.to/addon/metamap), works with VanillaGuide to make dots and tracking on map.
+> - [Questie](https://github.com/AeroScripts/QuestieDev), great for tracking several quests.
+> - [ExtendedQuestLog3](http://addons.us.to/addon/eql3), to get a better overview of your quests.
+
+
+**NOTE:** This Addon is developed for WoW 1.12.1 (5875), also known as Vanilla WoW, and is being tested and adjusted for Elysium Project/ Zeth'Kur
+
 
 Credits
 =======
