@@ -11,7 +11,8 @@ Some minor typos and locations corrected aswell.
 
 > **NOTE:**
 >
-> - This Addon is developed for WoW 1.12.1 (toc 11200), also known as Vanilla WoW 
+> - This Addon is developed for WoW 1.12.1 (5875), also known as Vanilla WoW
+> - Tested and adjusted for Elysium Project/ Zeth'Kur
 >
 
 Credits
