@@ -7,7 +7,7 @@ VanillaGuide aim to cover the hole for an in-game guide for Vanilla WoW. The Add
     MetaMapBWP Integration
 Major change in this fork is color coding for Alliance quests.
 
-Corrected and standardized coords, corrected spelling and tried to make stuff easier to read.
+Corrected and standardized coords, corrected spelling and working to make stuff easier to read.
 
 ##**[Download here](https://github.com/Lanjelin/VanillaGuide/releases)**
 
