@@ -123,8 +123,6 @@ Table_003_Horde_40to50 = {
 			[22] = { str = "Fly to Desolace if you're not 4 or 5 bars into lvl 43, or Dustwallow Marsh if you are." },
 		}
 	},
-
------------43-43 Desolace
 	[4342] = {
 		title = "43-43 Desolace",
 		items = {
@@ -160,8 +158,6 @@ Table_003_Horde_40to50 = {
 			[11] = { str = "Fly to Tanaris..." },
 		}
 	},
-
------------43-44 Tanaris
 	[4344] = {
 		title = "43-44 Tanaris",
 		items = {
@@ -195,8 +191,6 @@ Table_003_Horde_40to50 = {
 			[28] = { str = "Run west into Feralas... [08,11]", x = 8, y = 11, zone = "Thousand Needles" },
 		}
 	},
-
------------44-46 Feralas
 	[4446] = {
 		title = "44-46 Feralas",
 		items = {
@@ -242,33 +236,26 @@ Table_003_Horde_40to50 = {
 			[40] = { str = "Fly to Thunder Bluff" },
 			[41] = { str = "Turn in #TURNINDeadmire# at [61,81].", x = 61, y = 81, zone = "Thunder Bluff" },
 			[42] = { str = "Fly to Splintertree Post (Ashenvale)" },
-			[43] = { str = "Then go east into Azshara..." },
+			[43] = { str = "Then go east into Azshara ... Bridge just east of [92,46]", x = 92, y = 46, zone = "Ashenvale"  },
 		}
 	},
-
------------46-46 Azshara
-	--[408] = {
 	[4646] = {
 		title = "46-46 Azshara",
-		--n = "46-46 Azshara",
-		--pID = 407, nID = 409,
-		--itemCount = 16,
 		items = {
 			[1] = { str = "46-46 Azshara" },
-			[2] = { str = "Go accept #DOQUESTSpiritual Unrest# and #DOQUESTA Land Filled with Hatred# at [10,78]", x = 10, y = 78, zone = "Azshara" },
-			[3] = { str = "Then go do them at [17,66] and [20,62], and turn them in.", x = 17, y = 66, zone = "Azshara" },
-			[4] = { str = "Then go to Valormok at [21,52]", x = 21, y = 52, zone = "Azshara" },
-			[5] = { str = "Turn in #TURNINBetrayed# (skip the next part to this quest for now)" },
-			[6] = { str = "Then get FP there and fly to Orgrimmar." },
-			[7] = { str = "Then head to Under City." },
-			[8] = { str = "Then go to Magic Quarter and accept #ACCEPTLines of Communication# " },
-			[9] = { str = "Head to Apothecarium Quarter and accept: #ACCEPTSeeping Corruption# and #ACCEPTErrand for Apothecary Zinge# " },
-			[10] = { str = "Then go turn in #ACCEPTErrand for Apothecary Zinge# (out in the other room)" },
-			[11] = { str = "Go return back, and turn in #TURNINErrand for Apothecary Zinge# again ... accept #ACCEPTInto the Field# " },
-			[12] = { str = "You can put the 'Field Testing Kit' and the 'Box of Empty Vials' in the Bank for now." },
-			[13] = { str = "Fly to Tarren Mill and make it your home." },
-			[14] = { str = "Head to the Hinterlands. There a passage at around [83,33]", x = 83, y = 33, zone = "Hillsbard Foothills" },
-			--[15] = { str = "." },
+			[2] = { str = "Go accept #DOQUESTSpiritual Unrest# and #DOQUESTA Land Filled with Hatred# at [11,78]", x = 11, y = 78, zone = "Azshara" },
+			[3] = { str = "Go do them at [17,71] and [20,62], then run back and turn them in.", x = 17, y = 71, zone = "Azshara" },
+			[4] = { str = "Go to Valormok at [22,52]", x = 22, y = 52, zone = "Azshara" },
+			[5] = { str = "Turn in #TURNINBetrayed#, skip the next part to this quest for now." },
+			[6] = { str = "Get the FP there and fly to Orgrimmar." },
+			[7] = { str = "Take the Zeppelin to Undercity." },
+			[8] = { str = "Then go to Magic Quarter and accept #ACCEPTLines of Communication# at [73,32]", x = 73, y = 32, zone = "Undercity" },
+			[9] = { str = "Head to Apothecarium and accept #ACCEPTSeeping Corruption# and #ACCEPTErrand for Apothecary Zinge#, downstairs [49,70]", x = 49, y = 70, zone = "Undercity" },
+			[10] = { str = "Go turn in #ACCEPTErrand for Apothecary Zinge# at [58,55]", x = 58, y = 55, zone = "Undercity" },
+			[11] = { str = "Then back to the apothecary, turning in #TURNINErrand for Apothecary Zinge# ... accept #ACCEPTInto the Field#", x = 49, y = 70, zone = "Undercity" },
+			[12] = { str = "You can put the [Field Testing Kit] and the [Box of Empty Vials] in the Bank for now."},
+			[13] = { str = "Fly to Tarren Mill and make it your home."},
+			[14] = { str = "Head to the Hinterlands. There is a passage at around [83,33]", x = 83, y = 33, zone = "Hillsbard Foothills" },
 		}
 	},
 
