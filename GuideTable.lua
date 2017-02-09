@@ -55,15 +55,15 @@ function objGuideTable:new(oSettings)
 					if v2 then
 						local opentext = {
 							[1] = {
-								["find"] = "#ACCEPT",
+								["find"] = "#GET",
 								["replace"] = "|c0000ffff"
 							},
 							[2] = {
-								["find"] = "#DOQUEST",
+								["find"] = "#DO",
 								["replace"] = "|c000079d2"
 							},
 							[3] = {
-								["find"] = "#TURNIN",
+								["find"] = "#IN",
 								["replace"] = "|c0000ff00"
 							},
 							[4] = {
@@ -71,7 +71,7 @@ function objGuideTable:new(oSettings)
 								["replace"] = "|c00ff00ff"
 							},
 							[5] = {
-								["find"] = "#COORDS",
+								["find"] = "#COORD",
 								["replace"] = "|c00ffff00"
 							},
 							[6] = {
@@ -79,11 +79,11 @@ function objGuideTable:new(oSettings)
 								["replace"] = "|c00ff0000"
 							},
 							[7] = {
-								["find"] = "#PICTURE",
+								["find"] = "#ITEM",
 								["replace"] = "|c00fca742"
 							},
 							[8] = {
-								["find"] = "#HUNTER", 
+								["find"] = "#SKIP", 
 								["replace"] = "|c00a80000"
 							},
 						}
