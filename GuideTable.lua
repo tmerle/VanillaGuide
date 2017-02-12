@@ -22,7 +22,7 @@ Description:
 	1.04.2
 		-- no changes in here for this revision
 	1.04.3
-		-- no changes in here for this revision
+		-- Changed color codes
 ------------------------------------------------------
 Connection:
 --]]--------------------------------------------------
