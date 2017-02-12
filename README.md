@@ -7,28 +7,49 @@ VanillaGuide aim to cover the hole for an in-game guide for Vanilla WoW. The Add
     MetaMapBWP Integration
 Major change in this fork is color coding for Alliance quests.
 
-Corrected and standardized coords, corrected spelling and working to make stuff easier to read.
+**NOTE:** This Addon is developed for WoW 1.12.1 (5875),  and is being tested and rewritten for Elysium Project/ Zeth'Kur
 
 ##**[Download here](https://github.com/Lanjelin/VanillaGuide/releases)**
 
-**To get a better experience, I reccomend getting the following addons aswell**
+**To get a better experience, I recommend getting the following addons aswell**
 > - [MetaMap](http://addons.us.to/addon/metamap), works with VanillaGuide to make dots and tracking on map.
 > - [Questie](https://github.com/AeroScripts/QuestieDev), great for tracking quests, and adds minimap icons.
 > - [ExtendedQuestLog3](http://addons.us.to/addon/eql3), to get a better overview of your quests.
 
+Progress
+========
+- ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) Playtested
+- ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) Read through
+- ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) Untouched (mostly)
 
-**NOTE:** This Addon is developed for WoW 1.12.1 (5875), also known as Vanilla WoW, and is being tested and adjusted for Elysium Project/ Zeth'Kur
+Horde
+- ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) 1-12 Durotar
+- ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) 1-12 Mulgore
+- ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) 1-12 Tirisfal Glades
+- ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) 12-20
+- ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) 20-30
+- ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) 30-40
+- ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) 40-50
+- ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) 50-60
+
+Alliance
+- ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) 1-12 Dun Morogh
+- ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) 1-12 Elwynn Forest
+- ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) 1-12 Teldrassil
+- ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) 12-20
+- ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) 20-30
+- ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) 30-40
+- ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) 40-50
+- ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) 50-60
 
 
 Credits
 =======
-Well, thank you Joana/Mancow, you ruined my life with WoW, but I love you anyway.
-
-and here're the links to the REAL guide:
+Thank you to Joana/Mancow and Brian Kopps for the original guides:
 
     http://www.joanasworld.com/meet_joana_mancow.html
     http://www.joanasworld.com/azeroth.htm
     http://www.joanasworld.com/Joanas1-60Guide.pdf
     http://www.oocities.org/iliektosuxit/
 
-A thank you to [rsheep](https://github.com/rsheep/VanillaGuide) for the original work, and to [KasVital](https://github.com/KasVital/VanillaGuide) for work on the color coding.
+Thank you to [rsheep](https://github.com/rsheep/VanillaGuide) for the work on the original addon.
