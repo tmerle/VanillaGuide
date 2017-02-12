@@ -4,12 +4,12 @@ Authors: mrmr, lanjelin
 Version: 1.04.3
 ------------------------------------------------------
 Description: Guide Serie - 003 From Lvl 50 to Lvl 60
-    1.04.1
-        -- First Release
-            Alliance's Guide
-            from level 50 to lever 60
-    1.04.2
-    	-- no changes in here for this revision
+	1.04.1
+		-- First Release
+			Alliance's Guide
+			from level 50 to lever 60
+	1.04.2
+		-- no changes in here for this revision
 	1.04.3
 		-- Added color codes
 			Fixed various spelling errors
@@ -59,7 +59,7 @@ Table_003_Alliance_50to60 = {
 			[30] = { str = "Go to #COORD[63,38]# and start going down into the cauldron.", x = 63, y = 38, zone = "Searing Gorge" },
 			[31] = { str = "Kill dark iron taskmasters and slavers down here and inside the cave if you see them for #DOJOB OPPORTUNITY: Culling the Competition and Forging the Shaft#" },
 			[32] = { str = "Enter the caves at #COORD[41,54]#", x = 41, y = 54, zone = "Searing Gorge" },
-			[33] = { str = "Go in the cave to #COORD[41,25]# and go through the jail bar door, turn in  #INDwarven Justice# accept #GETRelease Them#", x = 41, y = 25, zone = "Searing Gorge" },
+			[33] = { str = "Go in the cave to #COORD[41,25]# and go through the jail bar door, turn in #INDwarven Justice# accept #GETRelease Them#", x = 41, y = 25, zone = "Searing Gorge" },
 			[34] = { str = "Go up the ramp and stay right until #COORD[40,35]# kill the boss here for #DOWANTED: Overseer Maltorius# and grab #DOWhat The Flux?# on the rail behind him. If you can’t find a group have the pet get the aggro and run the guys away from the plans. This is doable with 2 people but very tough. If you can’t get this quest done no big deal but I usually get it done.", x = 40, y = 35, zone = "Searing Gorge" },
 			[35] = { str = "Keep following the path that goes outside and curves back in. You’ll come to a big dead end area with lots of Incendosaur for #DOIncendosaurs? Whateverosaur is More Like It# Save the scales" },
 			[36] = { str = "Grind until youre 36k from leveling" },
@@ -277,7 +277,7 @@ Table_003_Alliance_50to60 = {
 			[11] = { str = "Run back to the front and go right again and accept #GETChasing A-Me 01 pt.2# now escort her out" },
 			[12] = { str = "Escort A-Me to Marshal’s at #COORD[46,13]# and turn in #INChasing A-Me 01 pt.2#", x = 46, y = 13, zone = "Un’Goro" },
 			[13] = { str = "Go into Marshal’s and turn in #INLinken's Sword# accept #GETA Gnome's Assistance#" },
-			[14] = { str = "Go to the back of the cave and turn in #INA Gnome's Assistance#  and accept #GETLinken’s Memory#" },
+			[14] = { str = "Go to the back of the cave and turn in #INA Gnome's Assistance# and accept #GETLinken’s Memory#" },
 			[15] = { str = "Run down and let the tar monsters kill you so you’re closer to the SE" },
 			[16] = { str = "Run down to #COORD[71,75]# and turn in #INThe Mighty U'cha#", x = 71, y = 75, zone = "Un’Goro" },
 			[17] = { str = "You should be over half way to level 55 now" },
@@ -392,7 +392,7 @@ Table_003_Alliance_50to60 = {
 			[23] = { str = "Run up to #COORD[64,23]# and listen to ragged john then run back to #COORD[84,68]# and turn in #INThe True Masters pt.6# I SKIP the next part, do it later if you’re worried about speed leveling. That was an easy 30k xp for doing nothing and your ony key chain is started.", x = 64, y = 23, zone = "Burning Steps" },
 			[24] = { str = "You should be about 10k from level 56, go grind until 5k on the orcs at #COORD[49,55]#", x = 49, y = 55, zone = "Burning Steps" },
 			[25] = { str = "Hearth to IF" },
-			[26] = { str = "Go to the throne room at #COORD[38,55]# and turn in  #INThe Smoldering Ruins of Thaurissan pt.2#", x = 38, y = 55, zone = "Ironforge" },
+			[26] = { str = "Go to the throne room at #COORD[38,55]# and turn in #INThe Smoldering Ruins of Thaurissan pt.2#", x = 38, y = 55, zone = "Ironforge" },
 			[27] = { str = "You should now be level 56, get new skills" },
 			[28] = { str = "Fly to Menethil and sail to Theramore" },
 			[29] = { str = "Fly to Gadgetzan" },
@@ -466,7 +466,7 @@ Table_003_Alliance_50to60 = {
 			[37] = { str = "Run over to #COORD[51,44]# and turn in #INUncovering Past Secrets#", x = 44, y = 35, zone = "Moonglade" },
 			[38] = { str = "You should now be 80-85% into leveling" },
 			[39] = { str = "Fly to Auberdine and sail to Menethil then fly to IF" },
-			[40] = { str = "Make IF your home, then find the wandering commander dwarf and accept  #GETA Call To Arms: The Plaguelands!#" },
+			[40] = { str = "Make IF your home, then find the wandering commander dwarf and accept #GETA Call To Arms: The Plaguelands!#" },
 			[41] = { str = "Fly to Southshore" },
 			[42] = { str = "Run north into Alterac Mountains and over NE to #COORD[80,34]# and run into Western Plaguelands (WPL)", x = 80, y = 34, zone = "Alterac Mountains" },
 		}
@@ -544,7 +544,7 @@ Table_003_Alliance_50to60 = {
 			[7] = { str = "Look on your map at #COORD[48,76]# This lines up with that middle ridge mountain. Don’t go past this spot east until you have your plaguehound runt kills for #DODemon Dogs# and plaguebats for #DOBlood Tinged Skies# because there is none past that point.", x = 48, y = 76, zone = "Eastern Plaguelands" },
 			[8] = { str = "Don’t forget to kill the grubs along the way too for #DOCarrion Grubbage#, they’re not as important because they’re all over." },
 			[9] = { str = "Kill Plaguehounds for Demon Dogs all around #COORD[56,57]# this is north of the scar and south of blackwood lake. Don’t forget the grubs", x = 56, y = 57, zone = "Eastern Plaguelands" },
-			[10] = { str = "Kill Frenzied Plaguehounds for #DODemon Dogs#  all around #COORD[61,41]# this is north of blackwood lake but now west of it.", x = 61, y = 41, zone = "Eastern Plaguelands" },
+			[10] = { str = "Kill Frenzied Plaguehounds for #DODemon Dogs# all around #COORD[61,41]# this is north of blackwood lake but now west of it.", x = 61, y = 41, zone = "Eastern Plaguelands" },
 			[11] = { str = "Head to lights hope chapel at #COORD[81,58]# if you still need grub meat for #DOCarrion Grubbage#, then kill them as you", x = 81, y = 58, zone = "Eastern Plaguelands" },
 			[12] = { str = "Get the FP" },
 			[13] = { str = "Turn in #INUncle Carlin# accept #GETDefenders of Darrowshire#" },
@@ -602,9 +602,9 @@ Table_003_Alliance_50to60 = {
 			[13] = { str = "Go NW to the tower at #COORD[56,24]# and turn in #INTroubled Spirits of Kel'Theril# SKIP the next part", x = 56, y = 24, zone = "Eastern Plaguelands" },
 			[14] = { str = "Run West to #COORD[45,34]# and loot the termite mounds here for #DOA Plague Upon Thee pt.1# until you get 100 termites, also kill ghouls to finish up #DODefenders of Darrowshire#", x = 45, y = 34, zone = "Eastern Plaguelands" },
 			[15] = { str = "Run to Lights Hope Chapel now" },
-			[16] = { str = "Go by the tent and turn in #IN“Defenders of Darrowshire”# and #IN“Villains of Darrowshire”#" },
+			[16] = { str = "Go by the tent and turn in #INDefenders of Darrowshire# and #INVillains of Darrowshire#" },
 			[17] = { str = "Fly to WPL" },
-			[18] = { str = "Next to the house turn in #IN“A Plague Upon Thee pt.1”# accept #GET“A Plague Upon Thee pt.2”#" },
+			[18] = { str = "Next to the house turn in #INA Plague Upon Thee pt.1# accept #GETA Plague Upon Thee pt.2#" },
 		}
 	},
 
@@ -617,23 +617,23 @@ Table_003_Alliance_50to60 = {
 		--itemCount = 19,
 		items = {
 			[1] = { str = "58-59 Western Plaguelands" },
-			[2] = { str = "Run up to #COORD[51,28]# and accept #GET“Unfinished Business pt.1”#", x = 52, y = 30, zone = "Western Plaguelands" },
-			[3] = { str = "Start heading back SW around #COORD[47,32]# and clear your way into the mill. Right click the box and place the termintes, then click the barrel and turn in #IN“A Plague Upon Thee pt.2”# accept #GET“A Plague Upon Thee pt.3”#", x = 47, y = 32, zone = "Western Plaguelands" },
-			[4] = { str = "Go just south of #COORD[49,42]# and kill 2 knights and mages for #DO“Unfinished Business pt.1”# then #COORD[51,43]# for the hunters and medics", x = 49, y = 42, zone = "Western Plaguelands" },
-			[5] = { str = "Go to #COORD[51,28]# and turn in #IN“Unfinished Business pt.1”# accept #GET“Unfinished Business pt.2”#", x = 51, y = 28, zone = "Western Plaguelands" },
-			[6] = { str = "Go to #COORD[57,36]# and kill Huntsman Radly for #DO“Unfinished Business pt.2”# then north to the tower at #COORD[55,23]# and kill Cavalier Durgen at the top", x = 57, y = 36, zone = "Western Plaguelands" },
-			[7] = { str = "Go straight out of the tower over the mountains to #COORD[51,28]# and turn in #IN“Unfinished Business pt.2”# doing the 3rd part #DO“Unfinished Business pt.3”# is optional. Some classes can do it easier than others. You have to run north to hearthglen and run up into the big tower in the center of town at #COORD[45,18]# and look over the edge until it says complete.", x = 45, y = 18, zone = "Western Plaguelands" },
-			[8] = { str = "Run back straight south over the mountains to #COORD[51,28]# and turn in #IN“Unfinished Business pt.3”#", x = 51, y = 28, zone = "Western Plaguelands" },
-			[9] = { str = "Run into EPL and up to 7,43 and turn in #IN“Of Lost Honor”# accept #GET“Of Love and Family pt.1”#", x = 7, y = 43, zone = "Eastern Plaguelands" },
-			[10] = { str = "Go back to WPL and run/swim to the island Scholo is on at #COORD[65,75]# and turn in #IN“Of Love and Family pt.1”# SKIP the rest until you do strat", x = 65, y = 75, zone = "Western Plaguelands" },
-			[11] = { str = "Go back to Chillwind Camp at #COORD[43,84]# and turn in #IN“A Plague Upon Thee pt.3”#", x = 43, y = 84, zone = "Western Plaguelands" },
-			[12] = { str = "Now you want to do 2 things here. Get friendly with Argent Dawn and get 8-8.5k from leveling. You can do #DO“Alas, Andorhal”# if you can find a group, it’s not that hard but can take 5-10 people. This will give you an easy 8300 xp instead of grinding." },
+			[2] = { str = "Run up to #COORD[51,28]# and accept #GETUnfinished Business pt.1#", x = 52, y = 30, zone = "Western Plaguelands" },
+			[3] = { str = "Start heading back SW around #COORD[47,32]# and clear your way into the mill. Right click the box and place the termintes, then click the barrel and turn in #INA Plague Upon Thee pt.2# accept #GETA Plague Upon Thee pt.3#", x = 47, y = 32, zone = "Western Plaguelands" },
+			[4] = { str = "Go just south of #COORD[49,42]# and kill 2 knights and mages for #DOUnfinished Business pt.1# then #COORD[51,43]# for the hunters and medics", x = 49, y = 42, zone = "Western Plaguelands" },
+			[5] = { str = "Go to #COORD[51,28]# and turn in #INUnfinished Business pt.1# accept #GETUnfinished Business pt.2#", x = 51, y = 28, zone = "Western Plaguelands" },
+			[6] = { str = "Go to #COORD[57,36]# and kill Huntsman Radly for #DOUnfinished Business pt.2# then north to the tower at #COORD[55,23]# and kill Cavalier Durgen at the top", x = 57, y = 36, zone = "Western Plaguelands" },
+			[7] = { str = "Go straight out of the tower over the mountains to #COORD[51,28]# and turn in #INUnfinished Business pt.2# doing the 3rd part #DOUnfinished Business pt.3# is optional. Some classes can do it easier than others. You have to run north to hearthglen and run up into the big tower in the center of town at #COORD[45,18]# and look over the edge until it says complete.", x = 45, y = 18, zone = "Western Plaguelands" },
+			[8] = { str = "Run back straight south over the mountains to #COORD[51,28]# and turn in #INUnfinished Business pt.3#", x = 51, y = 28, zone = "Western Plaguelands" },
+			[9] = { str = "Run into EPL and up to 7,43 and turn in #INOf Lost Honor# accept #GETOf Love and Family pt.1#", x = 7, y = 43, zone = "Eastern Plaguelands" },
+			[10] = { str = "Go back to WPL and run/swim to the island Scholo is on at #COORD[65,75]# and turn in #INOf Love and Family pt.1# SKIP the rest until you do strat", x = 65, y = 75, zone = "Western Plaguelands" },
+			[11] = { str = "Go back to Chillwind Camp at #COORD[43,84]# and turn in #INA Plague Upon Thee pt.3#", x = 43, y = 84, zone = "Western Plaguelands" },
+			[12] = { str = "Now you want to do 2 things here. Get friendly with Argent Dawn and get 8-8.5k from leveling. You can do #DOAlas, Andorhal# if you can find a group, it’s not that hard but can take 5-10 people. This will give you an easy 8300 xp instead of grinding." },
 			[13] = { str = "Now you want to go up to andorhal and just grind until you’re friendly, once you’re friendly go back to Chillwind Camp and turn in all your scourge tokens. This allows you to buy mana biscuits which restore mana and health and more than food can. If you still need to level then go grind on mobs in andorhal again until you’re 8-8.5k from level 59" },
-			[14] = { str = "Once you’re 8k-8.5k from leveling, fly to Hinterlands and run all the way NE to the waterfall at #COORD[80,46]# and jump off. Under the water loot the chest and finish #DO“Cortello’s Riddle pt.3”#", x = 80, y = 46, zone = "The Hinterlands" },
+			[14] = { str = "Once you’re 8k-8.5k from leveling, fly to Hinterlands and run all the way NE to the waterfall at #COORD[80,46]# and jump off. Under the water loot the chest and finish #DOCortello’s Riddle pt.3#", x = 80, y = 46, zone = "The Hinterlands" },
 			[15] = { str = "Hearth to IF" },
-			[16] = { str = "Go to the throne room at #COORD[43,52]# and accept #GET“An Earnest Proposition”# (pick your class from the list) You have to have your classes tier 0 bracers in order to do this quest. You can buy it on AH", x = 43, y = 52, zone = "Ironforge" },
+			[16] = { str = "Go to the throne room at #COORD[43,52]# and accept #GETAn Earnest Proposition# (pick your class from the list) You have to have your classes tier 0 bracers in order to do this quest. You can buy it on AH", x = 43, y = 52, zone = "Ironforge" },
 			[17] = { str = "Fly to Menethil and sail to Auberdine, fly to Darnassus" },
-			[18] = { str = "Go to 35,8 on the 2nd floor and turn in #IN“Glyphed Oaken Branch”#", x = 35, y = 8, zone = "Darnassus" },
+			[18] = { str = "Go to 35,8 on the 2nd floor and turn in #INGlyphed Oaken Branch#", x = 35, y = 8, zone = "Darnassus" },
 			[19] = { str = "You should be level 59, fly to Winterspring" },
 		}
 	},
@@ -647,33 +647,33 @@ Table_003_Alliance_50to60 = {
 		--itemCount = 31,
 		items = {
 			[1] = { str = "59-60 Winterspring" },
-			[2] = { str = "On your left after entering turn in #IN“Are We There, Yeti? pt.3”#" },
-			[3] = { str = "Near the back are 2 horde, accept #GET“Luck Be With You”#" },
-			[4] = { str = "Turn around and turn in #IN“Felnok Steelspring”# accept #GET“Chillwind Horns”#" },
-			[5] = { str = "Do #DO“An Earnest Proposition”# just kill the sabers until you have 15 blood" },
-			[6] = { str = "Go just SE of here around #COORD[55,18]# and kill the chimera’s for #DO“Chillwind Horns”#", x = 55, y = 18, zone = "Winterspring" },
-			[7] = { str = "Run to Starfall Village at #COORD[52,30]# and accept #GET“Enraged Wildkin pt.1”#", x = 52, y = 30, zone = "Winterspring" },
-			[8] = { str = "Turn in #IN“Chillwind Horns”# SKIP the other unless you want to go there" },
-			[9] = { str = "Go south to #COORD[59,59]# and touch the crate and turn in #IN“Enraged Wildkin pt.1”# accept #GET“Enraged Wildkin pt.2”#", x = 59, y = 59, zone = "Winterspring" },
-			[10] = { str = "Go back to the roat at #COORD[61,60]# and touch the wagon, turn in #IN“Enraged Wildkin pt.2”# accept #GET“Enraged Wildkin pt.3”# grab the box in the snow", x = 61, y = 60, zone = "Winterspring" },
-			[11] = { str = "Run east again to #COORD[63,59]# and turn in #IN“Find Ranshalla”# accept #GET“Guardians of the Altar”#", x = 63, y = 59, zone = "Winterspring" },
-			[12] = { str = "Now protect her while she does her thing. Make sure you get the feather off an owl for #DO“Enraged Wildkin pt.3”# When she stops in a cave, light the torch for her. If you don’t get the feather before you’re done keep killing until you got it." },
-			[13] = { str = "Go south to #COORD[62,69]# and loot the gems for #DO“Luck Be With You”# hunters and locks can use pet to distract mobs while you loot, other classes will have to group.", x = 62, y = 69, zone = "Winterspring" },
+			[2] = { str = "On your left after entering turn in #INAre We There, Yeti? pt.3#" },
+			[3] = { str = "Near the back are 2 horde, accept #GETLuck Be With You#" },
+			[4] = { str = "Turn around and turn in #INFelnok Steelspring# accept #GETChillwind Horns#" },
+			[5] = { str = "Do #DOAn Earnest Proposition# just kill the sabers until you have 15 blood" },
+			[6] = { str = "Go just SE of here around #COORD[55,18]# and kill the chimera’s for #DOChillwind Horns#", x = 55, y = 18, zone = "Winterspring" },
+			[7] = { str = "Run to Starfall Village at #COORD[52,30]# and accept #GETEnraged Wildkin pt.1#", x = 52, y = 30, zone = "Winterspring" },
+			[8] = { str = "Turn in #INChillwind Horns# SKIP the other unless you want to go there" },
+			[9] = { str = "Go south to #COORD[59,59]# and touch the crate and turn in #INEnraged Wildkin pt.1# accept #GETEnraged Wildkin pt.2#", x = 59, y = 59, zone = "Winterspring" },
+			[10] = { str = "Go back to the roat at #COORD[61,60]# and touch the wagon, turn in #INEnraged Wildkin pt.2# accept #GETEnraged Wildkin pt.3# grab the box in the snow", x = 61, y = 60, zone = "Winterspring" },
+			[11] = { str = "Run east again to #COORD[63,59]# and turn in #INFind Ranshalla# accept #GETGuardians of the Altar#", x = 63, y = 59, zone = "Winterspring" },
+			[12] = { str = "Now protect her while she does her thing. Make sure you get the feather off an owl for #DOEnraged Wildkin pt.3# When she stops in a cave, light the torch for her. If you don’t get the feather before you’re done keep killing until you got it." },
+			[13] = { str = "Go south to #COORD[62,69]# and loot the gems for #DOLuck Be With You# hunters and locks can use pet to distract mobs while you loot, other classes will have to group.", x = 62, y = 69, zone = "Winterspring" },
 			[14] = { str = "Hearth to Everlook" },
-			[15] = { str = "Turn in #IN“Luck Be With You”# at the 2 horde near the back of everlook" },
+			[15] = { str = "Turn in #INLuck Be With You# at the 2 horde near the back of everlook" },
 			[16] = { str = "You should be about 25% into level 59 now." },
-			[17] = { str = "Accept #GET“Cache of Mau'Ari”# if you want to. This just gives you an item which allows the mobs here to drop stuff which you can turn in for buffs" },
-			[18] = { str = "Go up to Starfall Village at #COORD[52,30]# and turn in #IN“Enraged Wildkin pt.3”#", x = 52, y = 30, zone = "Winterspring" },
-			[19] = { str = "Run to #COORD[31,45]# and turn in #IN“Mystery Goo”# accept #GET“Toxic Horrors”#", x = 31, y = 45, zone = "Winterspring" },
-			[20] = { str = "Run into Felwood and go to #COORD[48,24]# and kill toxic horrors for #DO“Toxic Horrors”# these also drop essence of waters", x = 48, y = 24, zone = "Felwood" },
-			[21] = { str = "Fly to Rut’theran Village and go to the house at #COORD[55,92]# and turn in #IN“Guardians of the Altar”# accept #GET“Wildkin of Elune”#", x = 55, y = 92, zone = "Teldrassil" },
-			[22] = { str = "Go in Darnassus and up to the top of the tower at 34,8 and turn in #IN“Wildkin of Elune”#", x = 34, y = 8, zone = "Darnassus" },
+			[17] = { str = "Accept #GETCache of Mau'Ari# if you want to. This just gives you an item which allows the mobs here to drop stuff which you can turn in for buffs" },
+			[18] = { str = "Go up to Starfall Village at #COORD[52,30]# and turn in #INEnraged Wildkin pt.3#", x = 52, y = 30, zone = "Winterspring" },
+			[19] = { str = "Run to #COORD[31,45]# and turn in #INMystery Goo# accept #GETToxic Horrors#", x = 31, y = 45, zone = "Winterspring" },
+			[20] = { str = "Run into Felwood and go to #COORD[48,24]# and kill toxic horrors for #DOToxic Horrors# these also drop essence of waters", x = 48, y = 24, zone = "Felwood" },
+			[21] = { str = "Fly to Rut’theran Village and go to the house at #COORD[55,92]# and turn in #INGuardians of the Altar# accept #GETWildkin of Elune#", x = 55, y = 92, zone = "Teldrassil" },
+			[22] = { str = "Go in Darnassus and up to the top of the tower at 34,8 and turn in #INWildkin of Elune#", x = 34, y = 8, zone = "Darnassus" },
 			[23] = { str = "Fly back to Felwood" },
-			[24] = { str = "Run back up into Winterspring and over to #COORD[31,45]# turn in #IN“Toxic Horrors”# accept #GET“Winterfall Runners”#", x = 31, y = 45, zone = "Winterspring" },
+			[24] = { str = "Run back up into Winterspring and over to #COORD[31,45]# turn in #INToxic Horrors# accept #GETWinterfall Runners#", x = 31, y = 45, zone = "Winterspring" },
 			[25] = { str = "Now to find the runners. They travel anywhere from the Timbermaw Cave east to #COORD[53,34]# then up around the mountains north of everlook over to Winterfall Village. If you didn’t see them from the cave to here, head east. You don’t have to kill all 3", x = 53, y = 34, zone = "Winterspring" },
 			[26] = { str = "Once you get the crate run back to #COORD[31,45]# Turn in Winterfall Runners an ambush will come from the lake, if you don’t move from the tent they won’t aggro you. SKIP the next part unless you get a group", x = 31, y = 45, zone = "Winterspring" },
 			[27] = { str = "Hearth to Everlook" },
-			[28] = { str = "You should be 45-50% through level 59. Now I make sure I got my mana bisquits and I start grinding until im 6600 to level 60.  Anywhere is fine where there is a lot of mobs It’s all a matter of preference. I choose the owl wing thicket at #COORD[64,62]# or anything north of everlook. I like to kill the furlbogs for timbermaw rep also.", x = 64, y = 62, zone = "Winterspring" },
+			[28] = { str = "You should be 45-50% through level 59. Now I make sure I got my mana bisquits and I start grinding until im 6600 to level 60. Anywhere is fine where there is a lot of mobs It’s all a matter of preference. I choose the owl wing thicket at #COORD[64,62]# or anything north of everlook. I like to kill the furlbogs for timbermaw rep also.", x = 64, y = 62, zone = "Winterspring" },
 			[29] = { str = "If you don’t want to grind this large amount then do BRD, scholo, or strat. You have a lot of quests in those spots to do" },
 			[30] = { str = "Once you’re 6600 to 60 go to IF and turn in #INAn Earnest Proposition#" },
 			[31] = { str = "Grats on 60!" },

@@ -4,12 +4,12 @@ Authors: mrmr, lanjelin
 Version: 1.04.3
 ------------------------------------------------------
 Description: Guide Serie - 001 Elwynn Forest
-    1.04.1
-        -- First Release
-            Human Elwynn Forest's Guide
-            from level 1 to lever 12
-    1.04.2
-    	-- no changes in here for this revision
+	1.04.1
+		-- First Release
+			Human Elwynn Forest's Guide
+			from level 1 to lever 12
+	1.04.2
+		-- no changes in here for this revision
 	1.04.3
 		-- Added color codes
 			Fixed various spelling errors
@@ -17,33 +17,28 @@ Description: Guide Serie - 001 Elwynn Forest
 ------------------------------------------------------
 Connection:
 --]]--------------------------------------------------
-
 Table_002_ElwynnForest = {
------------1-10 Elwynn Forest
-	--[15] = {
 	[0110] = {
 		title = "1-10 Elwynn Forest",
-		--n = "1-10 Elwynn Forest",
-		--pID = 1, nID = 16,
-		--itemCount = 69,
+		--L- Needs playtest
 		items = {
 			[1] = { str = "1-10 Elwynn Forest" },
 			[2] = { str = "Directly in front of where you start accept #GETA Threat Within# then go in the building and turn it in, accept #GETKobold Camp Cleanup#" },
 			[3] = { str = "Run back out, and turn in #INWelcome!# at the wagons at #COORD[47,41]#", x = 47, y = 41, zone = "Elwynn Forest" },
 			[4] = { str = "Go to the nook at the NW corner of the building at #COORD[48,40]# and accept #GETWolves Across the Border#", x = 48, y = 40, zone = "Elwynn Forest" },
-			[5] = { str = "Kill the wolves in front of you for #DOWolves Across the Border# while working your way to the Kobold Vermin at #COORD[47,35]# for #DOKobold Camp Cleanup#", x = 47, y = 35, zone = "Elwynn Forest" },
+			[5] = { str = "Kill #NPCWolves# in front of you for #DOWolves Across the Border# while working your way to the #NPCKobold Vermin# at #COORD[47,35]# for #DOKobold Camp Cleanup#", x = 47, y = 35, zone = "Elwynn Forest" },
 			[6] = { str = "Go back to #COORD[48,40]# and turn in #INWolves Across the Border#", x = 48, y = 40, zone = "Elwynn Forest" },
 			[7] = { str = "Run into the house at #COORD[48,41]# and turn in #INKobold Camp Cleanup# accept #GETSimple Letter# and #GETInvestigate Echo Ridge#", x = 48, y = 41, zone = "Elwynn Forest" },
 			[8] = { str = "Go to your class trainer and turn in #INSimple Letter# and get new skills", x = 50, y = 42, zone = "Elwynn Forest" },
 			[9] = { str = "Exit the house and accept #GETBrotherhood of Thieves#" },
-			[10] = { str = "Go NW toward the cave at #COORD[47,32]# and kill Kobold Workers on the way for #DOInvestigate Echo Ridge#", x = 47, y = 32, zone = "Elwynn Forest" },
-			[11] = { str = "Go West to #COORD[54,40]# and go south killing the defias for #DOBrotherhood of Thieves# you should be level 4 by the time you’re done, if not just grind until you are", x = 54, y = 40, zone = "Elwynn Forest" },
+			[10] = { str = "Go NW toward the cave at #COORD[47,32]# and kill #NPCKobold Workers# on the way for #DOInvestigate Echo Ridge#", x = 47, y = 32, zone = "Elwynn Forest" },
+			[11] = { str = "Go West to #COORD[54,40]# and go south killing #NPCDefias# for #DOBrotherhood of Thieves# you should be level 4 by the time you’re done, if not just grind until you are", x = 54, y = 40, zone = "Elwynn Forest" },
 			[12] = { str = "Run back to the abbey at #COORD[48,42]# and turn in #INBrotherhood of Thieves# accept #GETMilly Osworth# and #GETBounty on Garrick Padfoot#", x = 48, y = 42, zone = "Elwynn Forest" },
 			[13] = { str = "Go inside the house and turn in #INInvestigate Echo Ridge# accept #GETSkirmish at Echo Ridge# then get new skills" },
 			[14] = { str = "Go north of the house at #COORD[50,39]# next to the barn, turn in #INMilly Osworth# accept #GETMilly's Harvest#", x = 50, y = 39, zone = "Elwynn Forest" },
-			[15] = { str = "Go back east and grab the grapes in the garden at #COORD[54,48]# for #DOMilly's Harvest# then NE to #COORD[57,48]# you’ll see a shack with padfoot and a thug. Kill him for #DOBounty on Garrick Padfoot#", x = 57, y = 48, zone = "Elwynn Forest" },
+			[15] = { str = "Go back east and grab the #ITEMgrapes# in the garden at #COORD[54,48]# for #DOMilly's Harvest# then NE to #COORD[57,48]# you’ll see a shack with #NPCGarrick Padfoot#. Kill him for #DOBounty on Garrick Padfoot#", x = 57, y = 48, zone = "Elwynn Forest" },
 			[16] = { str = "Go back to #COORD[50,39]# and turn in #INMilly's Harvest# accept #GETGrape Manifest#", x = 50, y = 39, zone = "Elwynn Forest" },
-			[17] = { str = "Go into the cave at #COORD[47,31]# and kill Kobold Laborer’s for #DOSkirmish at Echo Ridge#", x = 47, y = 31, zone = "Elwynn Forest" },
+			[17] = { str = "Go into the cave at #COORD[47,31]# and kill #NPCKobold Laborer# for #DOSkirmish at Echo Ridge#", x = 47, y = 31, zone = "Elwynn Forest" },
 			[18] = { str = "Hearth back to the Abbey" },
 			[19] = { str = "Turn in #INBounty on Garrick Padfoot#" },
 			[20] = { str = "Go inside the house, turn in #INSkirmish at Echo Ridge# accept #GETReport to Goldshire#" },
@@ -56,8 +51,8 @@ Table_002_ElwynnForest = {
 			[27] = { str = "Exit the Inn, turn in #INReport to Goldshire# accept #GETThe Fargodeep Mine#" },
 			[28] = { str = "Find your trainer and buy new skills." },
 			[29] = { str = "Go near the carts at #COORD[42,67]# and accept #GETGold Dust Exchange#", x = 42, y = 67, zone = "Elwynn Forest" },
-			[30] = { str = "Go south to the Fargodeep Mine at #COORD[39,82]# and kill the kobold until you complete all 3 quests #DOThe Fargodeep Mine#, #DOGold Dust Exchange#, and #DOQUEATKobold Candles# Make sure you go in the lower entrance so The Fargodeep Mine is easier", x = 39, y = 82, zone = "Elwynn Forest" },
-			[31] = { str = "Once all 3 are done go to the Stonefield Farm just up the hill east at #COORD[34,84]# and accept #GETLost Necklace# SKIP #VIDEOPrincess Must Die!# if you cannot fight 3 mobs at a time.", x = 34, y = 84, zone = "Elwynn Forest" },
+			[30] = { str = "Go south to the Fargodeep Mine at #COORD[39,82]# and kill the #NPCKobold# until you complete all 3 quests #DOThe Fargodeep Mine#, #DOGold Dust Exchange#, and #DOQUEATKobold Candles# Make sure you go in the lower entrance so The Fargodeep Mine is easier", x = 39, y = 82, zone = "Elwynn Forest" },
+			[31] = { str = "Once all 3 are done go to the Stonefield Farm just up the hill east at #COORD[34,84]# and accept #GETLost Necklace# SKIP #SKIPPrincess Must Die!# if you cannot fight 3 mobs at a time.", x = 34, y = 84, zone = "Elwynn Forest" },
 			[32] = { str = "Go east to the Maclure Vinyard at #COORD[43,90]# and accept #GETYoung Lovers#", x = 43, y = 90, zone = "Elwynn Forest" },
 			[33] = { str = "Go to #COORD[43,86]# and turn in #INLost Necklace# accept #GETPie For Billy# then kill boars until it’s finished.", x = 43, y = 86, zone = "Elwynn Forest" },
 			[34] = { str = "Go back west to #COORD[34,84]# and turn in #INPie For Billy# and accept #GETBack to Billy#", x = 34, y = 84, zone = "Elwynn Forest" },
@@ -70,77 +65,74 @@ Table_002_ElwynnForest = {
 			[41] = { str = "Straight outside the Inn, turn in #INThe Fargodeep Mine# accept #GETThe Jasperlode Mine#" },
 			[42] = { str = "South near the fence, turn in #INGold Dust Exchange# You should have dinged level 7 now, accept #GETA Fishy Peril#" },
 			[43] = { str = "Turn around by the blacksmith and turn it in, accept #GETFurther Concerns#" },
-			[44] = { str = "Kill murlocs around the lake at #COORD[51,65]# for #DOCollecting Kelp#", x = 51, y = 65, zone = "Elwynn Forest" },
+			[44] = { str = "Kill #NPCMurlocs# around the lake at #COORD[51,65]# for #DOCollecting Kelp#", x = 51, y = 65, zone = "Elwynn Forest" },
 			[45] = { str = "Grind up to the Jasperlode Mine at #COORD[61,53]# and run through it about half way to #COORD[60,50]# for #DOThe Jasperlode Mine#", x = 60, y = 50, zone = "Elwynn Forest" },
 			[46] = { str = "Run to the bridge at #COORD[74,72]# and turn in #INFurther Concerns# accept #GETFind the Lost Guards# and #GETProtect the Frontier#", x = 74, y = 72, zone = "Elwynn Forest" },
 			[47] = { str = "Stop at the house NE of here at #COORD[79,69]# and accept #GETRed Linen Goods#", x = 79, y = 69, zone = "Elwynn Forest" },
 			[48] = { str = "At the center of the camp, #COORD[81,66]#, accept #GETA Bundle of Trouble#", x = 81, y = 66, zone = "Elwynn Forest" },
-			[49] = { str = "Run just west of the waterfall at #COORD[73,60]# touch the mangled body and turn in #INFind the Lost Guards# accept #GETDiscover Rolf’s Fate# You should now be level 8, if not grind until you are.", x = 73, y = 60, zone = "Elwynn Forest" },
-			[50] = { str = "Go to the murloc camp at #COORD[80,56]# and loot the mangled body there (might need a group, but usually always people here) and turn in #INDiscover Rolf’s Fate# accept #GETReport to Thomas#", x = 80, y = 56, zone = "Elwynn Forest" },
-			[51] = { str = "Go south to #COORD[81,66]# and turn in #IN“A Bundle of Trouble”#", x = 81, y = 66, zone = "Elwynn Forest" },
-			[52] = { str = "Cross the road and go south and east and finish killing the bears and wolves for #DO“Protect the Frontier”# bears are kinda scarce so you might have to search. Keep next step in mind." },
-			[53] = { str = "While doing this you can get some, if not all, of the red bandannas for  #DORed Linen Goods# at #COORD[90,78]#", x = 90, y = 78, zone = "Elwynn Forest" },
-			[54] = { str = "Go back to #COORD[74,72]# near the bridge and turn in #IN“Protect the Frontier”# and #IN“Report to Thomas”# accept #GET“Deliver Thomas' Report”#", x = 74, y = 72, zone = "Elwynn Forest" },
-			[55] = { str = "Go down to the pumpkin patch at #COORD[69,78]# and kill the rest of the defias for #DORed Linen Goods# ", x = 69, y = 78, zone = "Elwynn Forest" },
-			[56] = { str = "You might find Westfall Deed, for the quest #NPCFurlbrow's Deed# on the defias while you’re killing defias. Just hold it for now." },
+			[49] = { str = "Run just west of the waterfall at #COORD[73,60]# touch the #ITEMMangled Body# and turn in #INFind the Lost Guards# accept #GETDiscover Rolf’s Fate# You should now be level 8, if not grind until you are.", x = 73, y = 60, zone = "Elwynn Forest" },
+			[50] = { str = "Go to the Murloc camp at #COORD[80,56]# and loot the #ITEMMangled Body# there (might need a group, but usually always people here) and turn in #INDiscover Rolf’s Fate# accept #GETReport to Thomas#", x = 80, y = 56, zone = "Elwynn Forest" },
+			[51] = { str = "Go south to #COORD[81,66]# and turn in #INA Bundle of Trouble#", x = 81, y = 66, zone = "Elwynn Forest" },
+			[52] = { str = "Cross the road and go south and east and finish killing the #NPCBears# and #NPCWolves# for #DOProtect the Frontier#. #NPCBears# are kinda scarce so you might have to search. Keep next step in mind." },
+			[53] = { str = "While doing this you can get some, if not all, of the #ITEM[Red Linen Bandana]# for #DORed Linen Goods# at #COORD[90,78]#", x = 90, y = 78, zone = "Elwynn Forest" },
+			[54] = { str = "Go back to #COORD[74,72]# near the bridge and turn in #INProtect the Frontier# and #INReport to Thomas# accept #GETDeliver Thomas' Report#", x = 74, y = 72, zone = "Elwynn Forest" },
+			[55] = { str = "Go down to the pumpkin patch at #COORD[69,78]# and kill the rest of the #NPCDefias# for #DORed Linen Goods# ", x = 69, y = 78, zone = "Elwynn Forest" },
+			[56] = { str = "You might find #ITEM[Westfall Deed]#, for the quest #NPCFurlbrow's Deed# while you’re killing #NPCDefias#. Just hold it for now." },
 			[57] = { str = "Go to #COORD[79,69]# and turn in #INRed Linen Goods# it should make you level 9 or bring you really close", x = 79, y = 69, zone = "Elwynn Forest" },
-			[58] = { str = "Stop at the bridge again at #COORD[74,72]# and accept #GET“Report to Gryan Stoutmantle”# must be level 9 to accept", x = 74, y = 72, zone = "Elwynn Forest" },
+			[58] = { str = "Stop at the bridge again at #COORD[74,72]# and accept #GETReport to Gryan Stoutmantle# must be level 9 to accept", x = 74, y = 72, zone = "Elwynn Forest" },
 			[59] = { str = "Hearth to Goldshire" },
-			[60] = { str = "By the front door turn in #IN“Collecting Kelp”# accept #GET“The Escape”#" },
-			[61] = { str = "Just outside the Inn turn in #IN“The Jasperlode Mine”# and #IN“Deliver Thomas' Report”# SKIP #VIDEO“Cloth and Leather Armor”# accept #GET“Westbrook Garrison Needs Help!”#" },
-			[62] = { str = "In the blacksmith house right here accept #GET“Elmore's Task”# then get training" },
-			[63] = { str = "Run south to the Maclure Vinyard at #COORD[43,89]# and turn in #IN“The Escape”#", x = 43, y = 89, zone = "Elwynn Forest" },
-			[64] = { str = "Run west to the Stonefield Farm at #COORD[34,84]# and turn in #IN“Goldtooth”#", x = 34, y = 84, zone = "Elwynn Forest" },
-			[65] = { str = "Go NW to #COORD[24,74]# and turn in #IN“Westbrook Garrison Needs Help!”# accept #GET“Riverpaw Gnoll Bounty”# and accept #GET“Hogger!”# from the wanted sign", x = 24, y = 74, zone = "Elwynn Forest" },
-			[66] = { str = "Go just south of the road and start killing gnolls for #DO“Riverpaw Gnoll Bounty”# they can also drop a #NPCGold Schedule# which starts a quest" },
-			[67] = { str = "Go back up to #COORD[24,74]# and turn in #IN“Riverpaw Gnoll Bounty”#", x = 24, y = 74, zone = "Elwynn Forest" },
+			[60] = { str = "By the front door turn in #INCollecting Kelp# accept #GETThe Escape#" },
+			[61] = { str = "Just outside the Inn turn in #INThe Jasperlode Mine# and #INDeliver Thomas' Report# SKIP #SKIPCloth and Leather Armor# accept #GETWestbrook Garrison Needs Help!#" },
+			[62] = { str = "In the blacksmith house right here accept #GETElmore's Task# then get training" },
+			[63] = { str = "Run south to the Maclure Vinyard at #COORD[43,89]# and turn in #INThe Escape#", x = 43, y = 89, zone = "Elwynn Forest" },
+			[64] = { str = "Run west to the Stonefield Farm at #COORD[34,84]# and turn in #INGoldtooth#", x = 34, y = 84, zone = "Elwynn Forest" },
+			[65] = { str = "Go NW to #COORD[24,74]# and turn in #INWestbrook Garrison Needs Help!# accept #GETRiverpaw Gnoll Bounty# and accept #GETHogger!# from the #ITEMWanted! sign#", x = 24, y = 74, zone = "Elwynn Forest" },
+			[66] = { str = "Go just south of the road and start killing #NPCGnolls# for #DORiverpaw Gnoll Bounty# they can also drop a #ITEMGold Schedule# which starts a quest" },
+			[67] = { str = "Go back up to #COORD[24,74]# and turn in #INRiverpaw Gnoll Bounty#", x = 24, y = 74, zone = "Elwynn Forest" },
 			[68] = { str = "You should be very close to level 10 now." },
 			[69] = { str = "Follow the road west into Westfall" },
 		}
 	},
-
------------10-12 Westfall and Loch Modan
-	--[16] = {
 	[1012] = {
 		title = "10-12 Westfall and Loch Modan",
-		--n = "10-12 Westfall and Loch Modan",
-		--pID = 15, nID = 101,
-		--itemCount = 34,
+		--L- Needs playtest
 		items = {
 			[1] = { str = "10-12 Westfall and Loch Modan" },
-			[2] = { str = "Go to #COORD[60,19]# and turn in #IN“Furlbrow’s Deed”# if you found it before", x = 60, y = 19, zone = "Westfall" },
-			[3] = { str = "Accept #GET“Westfall Stew”# SKIP #VIDEO“Poor Old Blanchy”#" },
-			[4] = { str = "Go in the house at #COORD[56,30]# and turn in #IN“Westfall Stew”#", x = 56, y = 30, zone = "Westfall" },
-			[5] = { str = "Go to #COORD[56,47]# and turn in #IN“Report to Gryan Stoutmantle”#", x = 56, y = 47, zone = "Westfall" },
-			[6] = { str = "Go in the tower and accept #GET“A Swift Message”#" },
-			[7] = { str = "Get the FP at #COORD[56,53]# and turn in #IN“A Swift Message”# accept #GET“Continue to Stormwind”#", x = 56, y = 53, zone = "Westfall" },
-			[8] = { str = "Fly to SW unless you did hogger, then hearth to Goldshire and turn it in outside the Inn then buy new skills" },
-			[9] = { str = "In SW go to #COORD[56,66]# and turn in #IN“Shipment to Stormwind”#", x = 56, y = 66, zone = "Stormwind City" },
+			[2] = { str = "Go to #COORD[60,19]# and turn in #INFurlbrow’s Deed# if you found #ITEM[Westfall Deed]#.", x = 60, y = 19, zone = "Westfall" },
+			[3] = { str = "Accept #GETWestfall Stew# SKIP #SKIPPoor Old Blanchy#" },
+			[4] = { str = "Go in the house at #COORD[56,30]# and turn in #INWestfall Stew#", x = 56, y = 30, zone = "Westfall" },
+			[5] = { str = "Go to #COORD[56,47]# and turn in #INReport to Gryan Stoutmantle#", x = 56, y = 47, zone = "Westfall" },
+			[6] = { str = "Go in the tower and accept #GETA Swift Message#" },
+			[7] = { str = "Get the FP at #COORD[56,53]# and turn in #INA Swift Message# accept #GETContinue to Stormwind#", x = 56, y = 53, zone = "Westfall" },
+			[8] = { str = "Fly to SW. If you did #NPCHogger#, then hearth to Goldshire instead, and turn it in outside the Inn." },
+			[9] = { str = "In SW go to #COORD[56,66]# and turn in #INShipment to Stormwind#", x = 56, y = 66, zone = "Stormwind City" },
 			[10] = { str = "Train new weapons at #COORD[57,57]#", x = 57, y = 57, zone = "Stormwind City" },
-			[11] = { str = "Go to #COORD[74,48]# and turn in #IN“Continue to Stormwind”# accept #GET“Dungar Longdrink”#", x = 74, y = 48, zone = "Stormwind City" },
-			[12] = { str = "Go to #COORD[52,12]# and turn in #IN“Elmore's Task”#  accept #GET“Stormpike's Delivery”# this will be done on the way to the Wetlands", x = 52, y = 12, zone = "Stormwind City" },
+			[11] = { str = "Go to #COORD[74,48]# and turn in #INContinue to Stormwind# accept #GETDungar Longdrink#", x = 74, y = 48, zone = "Stormwind City" },
+			[12] = { str = "Go to #COORD[52,12]# and turn in #INElmore's Task# accept #GETStormpike's Delivery# this will be done on the way to the Wetlands", x = 52, y = 12, zone = "Stormwind City" },
 			[13] = { str = "^_'" },
-			[14] = { str = "Go to #COORD[66,62]# and turn in #IN“Stormpike's Delivery”# accept #GET#“Return to Lewis”# then fly back to Westfall", x = 66, y = 62, zone = "Stormwind City" },
-			[15] = { str = "Go to the tower at #COORD[56,47]# and turn in #IN“Return to Lewis”#", x = 56, y = 47, zone = "Westfall" },
+			[14] = { str = "Go to #COORD[66,62]# and turn in #INStormpike's Delivery# accept #GET#Return to Lewis# then fly back to Westfall", x = 66, y = 62, zone = "Stormwind City" },
+			[15] = { str = "Go to the tower at #COORD[56,47]# and turn in #INReturn to Lewis#", x = 56, y = 47, zone = "Westfall" },
 			[16] = { str = "Fly back to SW.", x = 74, y = 37, zone = "Stormwind City" },
 			[17] = { str = "'_'" },
 			[18] = { str = "Go into the tram at #COORD[64,08]# and take it to IF", x = 64, y = 8, zone = "Stormwind City" },
-			[19] = { str = "Once it stops accept #GET“Deeprun Rat Roundup”# just collect 5 rats and turn it in. You could skip this and keep the flute, It can really piss people off if you play it non stop around the IF bank. SKIP #VIDEO“Me Brother, Nipsy”# unless you go back to SW on the tram because it rewards little xp" },
+		--L- Cross check with DunMorogh Guide
+			[19] = { str = "Once it stops accept #GETDeeprun Rat Roundup# just collect 5 rats and turn it in. You could skip this and keep the flute, It can really piss people off if you play it non stop around the IF bank. SKIP #VIDEOMe Brother, Nipsy# unless you go back to SW on the tram because it rewards little xp" },
 			[20] = { str = "Grab the FP at #COORD[55,47]#", x = 55, y = 47, zone = "Ironforge" },
 			[21] = { str = "After the rat quest you should be close to level 11" },
 			[22] = { str = "Leave IF and head into Dun Morogh" },
-			[23] = { str = "Run east to #COORD[69,56]# and accept #GET“The Public Servant”#", x = 69, y = 56, zone = "Dun Morogh" },
-			[24] = { str = "Go behind him and accept #GET“Those Blasted Troggs!”#" },
-			[25] = { str = "Go in the pit below and kill the troggs here and in the cave for both quests then turn them back in at #COORD[69,56]#", x = 69, y = 56, zone = "Dun Morogh" },
+			[23] = { str = "Run east to #COORD[69,56]# and accept #GETThe Public Servant#", x = 69, y = 56, zone = "Dun Morogh" },
+			[24] = { str = "Go behind him and accept #GETThose Blasted Troggs!#" },
+			[25] = { str = "Go in the pit below and kill the #NPCTroggs# here and in the cave for both quests then turn them back in at #COORD[69,56]#", x = 69, y = 56, zone = "Dun Morogh" },
 			[26] = { str = "Go east to #COORD[81,53]# and follow the path into Loch Modan", x = 81, y = 53, zone = "Dun Morogh" },
-			[27] = { str = "Go to #COORD[22,73]# and accept #GET“In Defense of the King's Lands”#", x = 22, y = 73, zone = "Loch Modan" },
-			[28] = { str = "Go inside the bunker and accept #GET“The Trogg Threat”#" },
+			[27] = { str = "Go to #COORD[22,73]# and accept #GETIn Defense of the King's Lands#", x = 22, y = 73, zone = "Loch Modan" },
+			[28] = { str = "Go inside the bunker and accept #GETThe Trogg Threat#" },
 			[29] = { str = "Go grab the FP at #COORD[34,51]#", x = 34, y = 51, zone = "Loch Modan" },
-			[30] = { str = "Look for Mountaineer Kadrell roaming the town, and accept #GET“Rat Catching”#" },
-			[31] = { str = "Kill troggs from #COORD[27,53]# and north for #DO“In Defense of the King's Lands”# and #DO“The Trogg Threat”#", x = 27, y = 53, zone = "Loch Modan" },
+			[30] = { str = "Look for #NPCMountaineer Kadrell# roaming the town, and accept #GETRat Catching#" },
+			[31] = { str = "Kill #NPCTroggs# from #COORD[27,53]# and north for #DOIn Defense of the King's Lands# and #DOThe Trogg Threat#", x = 27, y = 53, zone = "Loch Modan" },
 			[32] = { str = "Go back to #COORD[22,73]# and turn them both in", x = 22, y = 73, zone = "Loch Modan" },
-			[33] = { str = "Go north to the bunker at #COORD[25,18]# and turn in #IN“Stormpike's Delivery”#", x = 25, y = 18, zone = "Loch Modan" },
+			[33] = { str = "Go north to the bunker at #COORD[25,18]# and turn in #INStormpike's Delivery#", x = 25, y = 18, zone = "Loch Modan" },
 			[34] = { str = "You should be level 12 now or close to it. You can grind if you’d like. Follow the Night Elf to IF guide but just go backwards. You’re going to go north through the wetlands to menethil, then take the boat to auberdine from here." },
+		--L- Someone has been way too lazy
 		}
 	},
 }
