@@ -28,8 +28,8 @@ Horde
 - ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) 1-12 Tirisfal Glades
 - ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) 12-20
 - ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) 20-30
-- ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) 30-40
-- ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) 40-50
+- ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) 30-40
+- ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) 40-50
 - ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) 50-60
 
 Alliance
