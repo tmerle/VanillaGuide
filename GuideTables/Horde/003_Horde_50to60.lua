@@ -38,6 +38,7 @@ Table_003_Horde_50to60 = {
 			[11] = { str = "Go turn in #INRise of the Silithid# ... accept #GETMarch of the Silithid# at #COORD[56,46]#", x = 56, y = 46, zone = "Azshara" },
 			[12] = { str = "Turn in #INDelivery to Jes'rimon# at #COORD[55,34]# ... accept #GETJes'rimon's Payment to Jediga# and #GETBone-Bladed Weapons# ", x = 55, y = 34, zone = "Azshara" },
 			[13] = { str = "Then turn in #INRipple Delivery# at #COORD[59,36]#  (If you did the Hinterlands section)", x = 59, y = 36, zone = "Azshara" },
+		--L- Remove Ripple Delivery as the quest cannot be accepet at given level
 			[14] = { str = "Then go to The Undercity, head to the Apothecarium Quarter..." },
 			[15] = { str = "Turn in #INDelivery to Andron Gant# ... accept #GETAndron's Payment to Jediga# " },
 			[16] = { str = "Then turn in #INSeeping Corruption# and #INReturn to Apothecary Zinge# ... accept #GETVivian Lagrave# while you are there." },
