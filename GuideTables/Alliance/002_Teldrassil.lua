@@ -14,33 +14,35 @@ Description: Guide Serie - 002 Teldrassil
 		-- Added color codes
 			Fixed various spelling errors
 			Adjustment to coordinate visibility
+			Playtested every step
 ------------------------------------------------------
 Connection:
 --]]--------------------------------------------------
 Table_002_Teldrassil = {
 	[0106] = {
 		title = "1-6 Teldrassil",
-		--L- Needs playtest
 		items = {
 			[1] = { str = "1-6 Teldrassil" },
-			[2] = { str = "Accept #GETThe Balance of Nature pt.1# at #COORD[58,44]# and go do it by killing mobs at #COORD[57,45]# and #COORD[61,43]#. Turn it in at #COORD[58,44]#.", x = 58, y = 44, zone = "Teldrassil" },
-			[3] = { str = "Accept #GETThe Balance of Nature pt.2# and #GETEtched Sigil# at #COORD[58,44]#. #GETThe Woodland Protector pt.1# at #COORD[59,42]# and #GETA Good Friend# at #COORD[60,41]#.", x = 59, y = 42, zone = "Teldrassil" },
-			[4] = { str = "Turn in #INThe Woodland Protector pt.1# at #COORD[57,45]# and accept #GETThe Woodland Protector pt.2# Mobs are at #COORD[56,46]#. Turn it in at #COORD[57,45]#.", x = 56, y = 46, zone = "Teldrassil" },
-			[5] = { str = "Accept #GETWebwood Venom# at #COORD[57,41]#.", x = 57, y = 41, zone = "Teldrassil" },
-			[6] = { str = "Jump down and go do the following #DOThe Balance of Nature pt.2# mobs are all around #COORD[60,35]#", x = 60, y = 35, zone = "Teldrassil" },
-			[7] = { str = "#DOWebwood Venom# at #COORD[57,32]# in and outside the cave.", x = 57, y = 32, zone = "Teldrassil" },
-			[8] = { str = "Turn in #INA Good Friend# at #COORD[54,32]# in a cove just west of the cave. Accept #GETA Friend in Need#.", x = 54, y = 32, zone = "Teldrassil" },
-			[9] = { str = "Turn in #INWebwood Venom# at #COORD[57,41]#. Accept #GETWebwood Egg#.", x = 57, y = 41, zone = "Teldrassil" },
-			[10] = { str = "Turn in #INThe Balance of Nature pt.2# at #COORD[58,44]#", x = 58, y = 44, zone = "Teldrassil" },
-			[11] = { str = "Turn in #INA Friend in Need# at #COORD[60,41]#, accept #GETIverron's Antidote pt.1#", x = 60, y = 41, zone = "Teldrassil" },
-			[12] = { str = "Do #DOIverron's Antidote pt.1# #ITEMlilies and mushrooms# around #COORD[57,37]#.", x = 57, y = 37, zone = "Teldrassil" },
-			[13] = { str = "Do #DOIverron's Antidote pt.1# #ITEMichor# in the cave #COORD[57,32]# along with #DOWebwood Egg# at #COORD[56,26]#", x = 57, y = 32, zone = "Teldrassil" },
-			[14] = { str = "Turn in #INWebwood Egg# at #COORD[57,41]# Accept #GETTenaron's Summons# then run up the ramp to the top of the tree and hand it in at #COORD[59,39]#. Accept #GETCrown of the Earth pt.1# ", x = 57, y = 41, zone = "Teldrassil" },
-			[15] = { str = "Turn in #INIverron's Antidote pt.1# accept #GETIverron's Antidote pt.2#." },
-			[16] = { str = "Do #DOCrown of the Earth pt.1# at #COORD[59,32]#", x = 59, y = 32, zone = "Teldrassil" },
-			[17] = { str = "Turn in #INIverron's Antidote pt.2# at #COORD[54,32]#", x = 54, y = 32, zone = "Teldrassil" },
-			[18] = { str = "Turn in #INCrown of the Earth pt.1# at #COORD[59,39]# Accept #GETCrown of the Earth pt.2# ", x = 59, y = 39, zone = "Teldrassil" },
-			[19] = { str = "If you’re not level 6 yet, you should be close. Level and get skills. Head towards Dolanaar" },
+			[2] = { str = "Accept #GETThe Balance of Nature pt.1# from #NPCConservator Ilthalaine# just in front og you, and go do it by killing mobs at #COORD[57,45]# and #COORD[61,43]#.", x = 57, y = 45, zone = "Teldrassil" },
+			[3] = { str = "Run back to turn it in, then accept #GETThe Balance of Nature pt.2# and #GETEtched Sigil# at #COORD[59,44]#.", x = 59, y = 44, zone = "Teldrassil" },
+			[4] = { str = "Get #GETThe Woodland Protector pt.1# at #COORD[60,43]# and #GETA Good Friend# at #COORD[61,42]#.", x = 61, y = 42, zone = "Teldrassil" },
+			[5] = { str = "Turn in #INThe Woodland Protector pt.1# at #COORD[58,45]# and accept #GETThe Woodland Protector pt.2#", x = 58, y = 45, zone = "Teldrassil" },
+			[6] = { str = "Do #DOThe Woodland Protector pt.2# at #COORD[56,46]#. Run back and turn it in at #COORD[57,45]#.", x = 56, y = 46, zone = "Teldrassil" },
+			[7] = { str = "Accept #GETWebwood Venom# at #COORD[58,42]#. Go turn in #INEtched Sigil# at your class trainer. Get new skills.", x = 58, y = 42, zone = "Teldrassil" },
+			[8] = { str = "Head over to #COORD[60,35]# and do #DOThe Balance of Nature pt.2#, mobs are all around.", x = 60, y = 35, zone = "Teldrassil" },
+			[9] = { str = "Do #DOWebwood Venom# at #COORD[57,32]#, in and outside the cave.", x = 57, y = 32, zone = "Teldrassil" },
+			[10] = { str = "Turn in #INA Good Friend# at #COORD[55,33]# in a cove just west of the cave. Accept #GETA Friend in Need#.", x = 55, y = 33, zone = "Teldrassil" },
+			[11] = { str = "Turn in #INWebwood Venom# at #COORD[58,42]#. Accept #GETWebwood Egg#.", x = 58, y = 42, zone = "Teldrassil" },
+			[12] = { str = "Turn in #INThe Balance of Nature pt.2# at #COORD[59,44]#", x = 59, y = 44, zone = "Teldrassil" },
+			[13] = { str = "Turn in #INA Friend in Need# at #COORD[61,42]#, accept #GETIverron's Antidote pt.1#", x = 61, y = 42, zone = "Teldrassil" },
+			[14] = { str = "Do #DOIverron's Antidote pt.1#, get #ITEMMoonpetal Lily# and #ITEMHyancinth Mushroom# around #COORD[57,37]#.", x = 57, y = 37, zone = "Teldrassil" },
+			[15] = { str = "For #DOIverron's Antidote pt.1#, get #ITEMWebwood Ichor# from a #NPCWebwood Spider# #COORD[57,32]#. Get #ITEMWebwood Egg# for #DOWebwood Egg# at #COORD[57,26]# inside the cave.", x = 57, y = 36, zone = "Teldrassil" },
+			[16] = { str = "Turn in #INWebwood Egg# at #COORD[58,42]# Accept #GETTenaron's Summons#, then run up the ramp to the top of the tree and hand it in at #COORD[59,39]#. Accept #GETCrown of the Earth pt.1# ", x = 58, y = 42, zone = "Teldrassil" },
+			[17] = { str = "Turn in #INIverron's Antidote pt.1# accept #GETIverron's Antidote pt.2# at #COORD[61,42]#.", x = 61, y = 42, zone = "Teldrassil" },
+			[18] = { str = "Run over and turn in #INIverron's Antidote pt.2# at #COORD[54,32]#", x = 54, y = 32, zone = "Teldrassil" },
+			[19] = { str = "Fill the #ITEM[Crystal Phial]# for #DOCrown of the Earth pt.1# at #COORD[59,32]#", x = 59, y = 32, zone = "Teldrassil" },
+			[20] = { str = "Run back to the top of the tree at #COORD[59,39]#, and turn in #INCrown of the Earth pt.1#. Accept #GETCrown of the Earth pt.2# ", x = 59, y = 39, zone = "Teldrassil" },
+			[21] = { str = "If you’re not level 6 yet, you should be close. Level and get skills." },
 		}
 	},
 	[0612] = {
@@ -104,6 +106,7 @@ Table_002_Teldrassil = {
 			[55] = { str = "Turn in #INCrown of the Earth pt.6# 34,8 in Darnassus", x = 34, y = 8, zone = "Darnassus" },
 			[56] = { str = "Get skills and run through gate at #COORD[30,41]#", x = 30, y = 41, zone = "Darnassus" },
 			[57] = { str = "Run straight ahead to #COORD[56,92]#, turn in #INNessa Shadowsong# accept #GETThe Bounty of Teldrassil# go hand it in to the hippogryph guy at #COORD[58,93]# to get a free ride and accept #GETFlight to Auberdine#.", x = 56, y = 92, zone = "Teldrassil" },
+		--L- Turn in #INFlight to Auberdine# accept #GETReturn to Nessa# I fly back to Darnassus to get it done. She’s right off the edge of the dock.
 		}
 	},
 }
