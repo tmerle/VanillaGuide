@@ -356,7 +356,7 @@ Table_003_Horde_40to50 = {
 			[10] = { str = "Turn in #INTooga's Quest# along with #INScreecher Spirits#, SKIP #SKIPThe Prophecy of Mosh'Aru#." },
 			[11] = { str = "Go back to Gadgetzan and turn in #INThe Thirsty Goblin#, accept #GETIn Good Taste# turn it in, accept #GETSprinkle's Secret Ingredient#, turn in #INThistleshrub Valley#, #INThe Dunemaul Compound# and #INNoxious Lair Investigation#, accept #GETThe Scrimshank Redemption#." },
 			[12] = { str = "Get your #ITEM[Sampling Kit]# and #ITEM[Power Source]# from the bank, accept #GETTanaris Field Sampling# from it, then go do it. turn in #INGahz'ridian# at #COORD[52,45]#.", x = 52, y = 45, zone = "Tanaris" },
-			[13] = { str = "Do #DOThe Scrimshank Redemption#, in the cave at #COORD[53,70]# The secret for finding the item for this quest is keep making right turns in the cave and it will lead you to it.", x = 53, y = 70, zone = "Tanaris" },
+			[13] = { str = "Do #DOThe Scrimshank Redemption#, in the cave at #COORD[56,70]# The secret for finding the item for this quest is keep making right turns in the cave and it will lead you to it.", x = 53, y = 70, zone = "Tanaris" },
 			[14] = { str = "If the #ITEM[OOX-17/TN Distress Beacon]# drops, accept the quest #GETFind OOX-17/TN!# and tun it in at #COORD[60,64]#.", x = 60, y = 64, zone = "Tanaris" },
 			[15] = { str = "Hearth to Gadgetzan." },
 			[16] = { str = "Turn in #INTanaris Field Sampling#, accept #GETReturn to Apothecary Zinge#." },
