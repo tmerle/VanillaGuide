@@ -89,7 +89,15 @@ function objGuideTable:new(oSettings)
                   }
                   for n = 1, getn(opentext) do
                      t1[k1].items[k2].str = gsub(t1[k1].items[k2].str, opentext[n]["find"],opentext[n]["replace"])
-		  end
+                     -- If necessary, call PFQuest add-on to get quest name translated in own language.
+                     local startPos, endPos = strfind(t1[k1].items[k2].str,"ID%d+")
+                     if startPos ~= nil then -- ID instead of quest name, replace by quest name!
+                        questid=strsub(t1[k1].items[k2].str,startPos+strlen("ID"),endPos)
+                        local maps, meta = {}, { ["addon"] = "VGuide", ["qlogid"] = tonumber(questid) }
+                        maps = pfDatabase:SearchQuestID(tonumber(questid), meta, maps)
+                        t1[k1].items[k2].str=gsub(t1[k1].items[k2].str,"ID"..questid.."#",meta["quest"].."|r")
+                     end
+                  end
                   t1[k1].items[k2].str = gsub(t1[k1].items[k2].str, "#","|r")
                end
             end

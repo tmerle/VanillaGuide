@@ -6,8 +6,11 @@ VanillaGuide aim to cover the hole for an in-game guide for Vanilla WoW. The Add
     Hints and Tips for various Quests
     MetaMapBWP Integration
 Major change in this fork is color coding for Alliance quests.
+Additional change: link with pfQuest add-on in order to get localized quest names, items, ... This will help non-English users to figure out the quest name in their own language.
 
 **NOTE:** This Addon is developed for WoW 1.12.1 (5875),  and is being tested and rewritten for Elysium Project/ Zeth'Kur
+
+**IMPORTANT:** This Addon requires pfQuest addon to be installed for localization: [pfQuest](https://github.com/shagu/pfQuest)
 
 ##**[Download here](https://github.com/Lanjelin/VanillaGuide/releases)**
 
