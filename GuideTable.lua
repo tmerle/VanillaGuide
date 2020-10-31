@@ -48,6 +48,105 @@ function objGuideTable:new(oSettings)
       return t1
    end
 
+   local function replacequestid(match,replacecolor,action)
+      local startPos, endPos = strfind(match,"%d+#")
+      if startPos ~= nil then -- ID instead of quest name, replace by quest name!
+	 questid=strsub(match,startPos,endPos-1) -- don't take trailing '#'
+	 local maps, meta = {}, { ["addon"] = "VGuide", ["qlogid"] = tonumber(questid) }
+	 maps = pfDatabase:SearchQuestID(tonumber(questid), meta, maps)
+	 if meta["quest"] ~= nil then
+	    return replacecolor..meta["quest"].."|r"
+	 else
+	    return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+	 end
+      else
+	 return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+      end
+   end
+
+   local function replaceGETquestid(match)
+      return replacequestid(match,"|c0000ffff","#GET")
+   end
+
+   local function replaceDOquestid(match)
+      return replacequestid(match,"|c000079d2","#DO")
+   end
+
+   local function replaceINquestid(match)
+      return replacequestid(match,"|c0000ff00","#IN")
+   end
+
+   local function replaceSKIPquestid(match)
+      return replacequestid(match,"|c00a80000","#SKIP")
+   end
+
+   local function replaceNPCid(match)
+      local replacecolor = "|c00ff00ff"
+      local action="#NPC"
+      local startPos, endPos = strfind(match,"%d+#")
+      if startPos ~= nil then -- ID instead of NPC name, replace by NPC name!
+	 mobid=strsub(match,startPos,endPos-1) -- don't take trailing '#'
+	 local maps, meta = {}, { ["addon"] = "VGuide", ["spawnid"] = tonumber(mobid) }
+	 maps = pfDatabase:SearchMobID(tonumber(mobid), meta, maps)
+	 if meta["spawn"] ~= nil then
+	    return replacecolor..meta["spawn"].."|r"
+	 else
+	    return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+	 end
+      else
+	 return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+      end
+   end
+
+   local function replaceCOORDid(match)
+      local replacecolor = "|c00ffff00"
+      local action="#COORD"
+      return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+   end
+
+   local function replaceVIDEOid(match)
+      local replacecolor = "|c00ff0000"
+      local action="#VIDEO"
+      return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+   end
+
+   local function replaceITEMid(match)
+      local replacecolor = "|c00fca742"
+      local startPos, endPos = strfind(match,"%d+#")
+      local action="#ITEM"
+      if startPos ~= nil then -- ID instead of ITEM name, replace by ITEM name!
+	 itemid=strsub(match,startPos,endPos-1) -- don't take trailing '#'
+	 local maps, meta = {}, { ["addon"] = "VGuide", ["itemid"] = tonumber(itemid) }
+	 local allowedTypes = {}
+	 maps = pfDatabase:SearchItemID(tonumber(itemid), meta, maps,allowedTypes) -- allowedtypes not nil but empty since we don't care about where to find it (yet)
+	 if meta["item"] ~= nil then
+	    return replacecolor..meta["item"].."|r"
+	 else
+	    return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+	 end
+      else
+	 return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+      end
+   end
+
+   local function replaceOBJECTid(match)
+      local replacecolor = "|c00fca742"
+      local startPos, endPos = strfind(match,"%d+#")
+      local action="#OBJECT"
+      if startPos ~= nil then -- ID instead of OBJECT name, replace by OBJECT name!
+	 objectid=strsub(match,startPos,endPos-1) -- don't take trailing '#'
+	 local maps, meta = {}, { ["addon"] = "VGuide", ["spawnid"] = tonumber(objectid) }
+	 maps = pfDatabase:SearchObjectID(tonumber(objectid), meta, maps)
+	 if meta["spawn"] ~= nil then
+	    return replacecolor..meta["spawn"].."|r"
+	 else
+	    return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+	 end
+      else
+	 return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+      end
+   end
+
    local function ColorizeTable(t1)
       for k1, _ in pairs(t1) do
          if type(t1[k1].items) == "table" then
@@ -55,53 +154,50 @@ function objGuideTable:new(oSettings)
                if v2 then
                   local opentext = {
                      [1] = {
-                        ["find"] = "#GET",
-                        ["replace"] = "|c0000ffff"
+                        ["find"] = "#GET[^#]+#",
+			["replacefunction"] = replaceGETquestid
                      },
                      [2] = {
-                        ["find"] = "#DO",
-                        ["replace"] = "|c000079d2"
+                        ["find"] = "#DO[^#]+#",
+			["replacefunction"] = replaceDOquestid
                      },
                      [3] = {
-                        ["find"] = "#IN",
-                        ["replace"] = "|c0000ff00"
+                        ["find"] = "#IN[^#]+#",
+			["replacefunction"] = replaceINquestid
                      },
                      [4] = {
-                        ["find"] = "#NPC",
-                        ["replace"] = "|c00ff00ff"
+                        ["find"] = "#NPC[^#]+#",
+			["replacefunction"] = replaceNPCid
                      },
                      [5] = {
-                        ["find"] = "#COORD",
-                        ["replace"] = "|c00ffff00"
+                        ["find"] = "#COORD%[%d+,%d+%]#",
+			["replacefunction"] = replaceCOORDid
                      },
                      [6] = {
-                        ["find"] = "#VIDEO",
-                        ["replace"] = "|c00ff0000"
+                        ["find"] = "#VIDEO[^#]+#",
+			["replacefunction"] = replaceVIDEOid
                      },
                      [7] = {
-                        ["find"] = "#ITEM",
-                        ["replace"] = "|c00fca742"
+                        ["find"] = "#ITEM[^#]+#",
+			["replacefunction"] = replaceITEMid
                      },
                      [8] = {
-                        ["find"] = "#SKIP", 
-                        ["replace"] = "|c00a80000"
+                        ["find"] = "#SKIP[^#]+#",
+			["replacefunction"] = replaceSKIPquestid
+                     },
+                     [9] = {
+                        ["find"] = "#OBJECT[^#]+#",
+			["replacefunction"] = replaceOBJECTid
                      },
                   }
                   for n = 1, getn(opentext) do
-                     t1[k1].items[k2].str = gsub(t1[k1].items[k2].str, opentext[n]["find"],opentext[n]["replace"])
-                     -- If necessary, call PFQuest add-on to get quest name translated in own language.
-                     local startPos, endPos = strfind(t1[k1].items[k2].str,"ID%d+")
-                     if startPos ~= nil then -- ID instead of quest name, replace by quest name!
-                        questid=strsub(t1[k1].items[k2].str,startPos+strlen("ID"),endPos)
-                        local maps, meta = {}, { ["addon"] = "VGuide", ["qlogid"] = tonumber(questid) }
-                        maps = pfDatabase:SearchQuestID(tonumber(questid), meta, maps)
-                        t1[k1].items[k2].str=gsub(t1[k1].items[k2].str,"ID"..questid.."#",meta["quest"].."|r")
-                     end
-                  end
-                  t1[k1].items[k2].str = gsub(t1[k1].items[k2].str, "#","|r")
-               end
-            end
-         end
+                     t1[k1].items[k2].str = gsub(t1[k1].items[k2].str,
+						 opentext[n]["find"],
+						 opentext[n]["replacefunction"])
+		  end
+	       end
+	    end
+	 end
       end
       return t1
    end
