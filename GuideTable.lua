@@ -49,18 +49,18 @@ function objGuideTable:new(oSettings)
    end
 
    local function replacequestid(match,replacecolor,action)
-      local startPos, endPos = strfind(match,"%d+#")
+      local startPos, endPos = strfind(match,"ID%d+#")
       if startPos ~= nil then -- ID instead of quest name, replace by quest name!
-	 questid=strsub(match,startPos,endPos-1) -- don't take trailing '#'
-	 local maps, meta = {}, { ["addon"] = "VGuide", ["qlogid"] = tonumber(questid) }
-	 maps = pfDatabase:SearchQuestID(tonumber(questid), meta, maps)
-	 if meta["quest"] ~= nil then
-	    return replacecolor..meta["quest"].."|r"
-	 else
-	    return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
-	 end
+         questid=strsub(match,startPos+2,endPos-1) -- don't take trailing '#'
+         local maps, meta = {}, { ["addon"] = "VGuide", ["qlogid"] = tonumber(questid) }
+         maps = pfDatabase:SearchQuestID(tonumber(questid), meta, maps)
+         if meta["quest"] ~= nil then
+            return replacecolor..meta["quest"].."|r"
+         else
+            return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+         end
       else
-	 return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+         return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
       end
    end
 
@@ -83,18 +83,18 @@ function objGuideTable:new(oSettings)
    local function replaceNPCid(match)
       local replacecolor = "|c00ff00ff"
       local action="#NPC"
-      local startPos, endPos = strfind(match,"%d+#")
+      local startPos, endPos = strfind(match,"ID%d+#")
       if startPos ~= nil then -- ID instead of NPC name, replace by NPC name!
-	 mobid=strsub(match,startPos,endPos-1) -- don't take trailing '#'
-	 local maps, meta = {}, { ["addon"] = "VGuide", ["spawnid"] = tonumber(mobid) }
-	 maps = pfDatabase:SearchMobID(tonumber(mobid), meta, maps)
-	 if meta["spawn"] ~= nil then
-	    return replacecolor..meta["spawn"].."|r"
-	 else
-	    return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
-	 end
+         mobid=strsub(match,startPos,endPos-1) -- don't take trailing '#'
+         local maps, meta = {}, { ["addon"] = "VGuide", ["spawnid"] = tonumber(mobid) }
+         maps = pfDatabase:SearchMobID(tonumber(mobid), meta, maps)
+         if meta["spawn"] ~= nil then
+            return replacecolor..meta["spawn"].."|r"
+         else
+            return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+         end
       else
-	 return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+         return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
       end
    end
 
@@ -112,38 +112,38 @@ function objGuideTable:new(oSettings)
 
    local function replaceITEMid(match)
       local replacecolor = "|c00fca742"
-      local startPos, endPos = strfind(match,"%d+#")
+      local startPos, endPos = strfind(match,"ID%d+#")
       local action="#ITEM"
       if startPos ~= nil then -- ID instead of ITEM name, replace by ITEM name!
-	 itemid=strsub(match,startPos,endPos-1) -- don't take trailing '#'
-	 local maps, meta = {}, { ["addon"] = "VGuide", ["itemid"] = tonumber(itemid) }
-	 local allowedTypes = {}
-	 maps = pfDatabase:SearchItemID(tonumber(itemid), meta, maps,allowedTypes) -- allowedtypes not nil but empty since we don't care about where to find it (yet)
-	 if meta["item"] ~= nil then
-	    return replacecolor..meta["item"].."|r"
-	 else
-	    return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
-	 end
+         itemid=strsub(match,startPos,endPos-1) -- don't take trailing '#'
+         local maps, meta = {}, { ["addon"] = "VGuide", ["itemid"] = tonumber(itemid) }
+         local allowedTypes = {}
+         maps = pfDatabase:SearchItemID(tonumber(itemid), meta, maps,allowedTypes) -- allowedtypes not nil but empty since we don't care about where to find it (yet)
+         if meta["item"] ~= nil then
+            return replacecolor..meta["item"].."|r"
+         else
+            return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+         end
       else
-	 return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+         return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
       end
    end
 
    local function replaceOBJECTid(match)
       local replacecolor = "|c00fca742"
-      local startPos, endPos = strfind(match,"%d+#")
+      local startPos, endPos = strfind(match,"ID%d+#")
       local action="#OBJECT"
       if startPos ~= nil then -- ID instead of OBJECT name, replace by OBJECT name!
-	 objectid=strsub(match,startPos,endPos-1) -- don't take trailing '#'
-	 local maps, meta = {}, { ["addon"] = "VGuide", ["spawnid"] = tonumber(objectid) }
-	 maps = pfDatabase:SearchObjectID(tonumber(objectid), meta, maps)
-	 if meta["spawn"] ~= nil then
-	    return replacecolor..meta["spawn"].."|r"
-	 else
-	    return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
-	 end
+         objectid=strsub(match,startPos,endPos-1) -- don't take trailing '#'
+         local maps, meta = {}, { ["addon"] = "VGuide", ["spawnid"] = tonumber(objectid) }
+         maps = pfDatabase:SearchObjectID(tonumber(objectid), meta, maps)
+         if meta["spawn"] ~= nil then
+            return replacecolor..meta["spawn"].."|r"
+         else
+            return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+         end
       else
-	 return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+         return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
       end
    end
 
@@ -155,49 +155,49 @@ function objGuideTable:new(oSettings)
                   local opentext = {
                      [1] = {
                         ["find"] = "#GET[^#]+#",
-			["replacefunction"] = replaceGETquestid
+                        ["replacefunction"] = replaceGETquestid
                      },
                      [2] = {
                         ["find"] = "#DO[^#]+#",
-			["replacefunction"] = replaceDOquestid
+                        ["replacefunction"] = replaceDOquestid
                      },
                      [3] = {
                         ["find"] = "#IN[^#]+#",
-			["replacefunction"] = replaceINquestid
+                        ["replacefunction"] = replaceINquestid
                      },
                      [4] = {
                         ["find"] = "#NPC[^#]+#",
-			["replacefunction"] = replaceNPCid
+                        ["replacefunction"] = replaceNPCid
                      },
                      [5] = {
                         ["find"] = "#COORD%[%d+,%d+%]#",
-			["replacefunction"] = replaceCOORDid
+                        ["replacefunction"] = replaceCOORDid
                      },
                      [6] = {
                         ["find"] = "#VIDEO[^#]+#",
-			["replacefunction"] = replaceVIDEOid
+                        ["replacefunction"] = replaceVIDEOid
                      },
                      [7] = {
                         ["find"] = "#ITEM[^#]+#",
-			["replacefunction"] = replaceITEMid
+                        ["replacefunction"] = replaceITEMid
                      },
                      [8] = {
                         ["find"] = "#SKIP[^#]+#",
-			["replacefunction"] = replaceSKIPquestid
+                        ["replacefunction"] = replaceSKIPquestid
                      },
                      [9] = {
                         ["find"] = "#OBJECT[^#]+#",
-			["replacefunction"] = replaceOBJECTid
+                        ["replacefunction"] = replaceOBJECTid
                      },
                   }
                   for n = 1, getn(opentext) do
                      t1[k1].items[k2].str = gsub(t1[k1].items[k2].str,
-						 opentext[n]["find"],
-						 opentext[n]["replacefunction"])
-		  end
-	       end
-	    end
-	 end
+                                                 opentext[n]["find"],
+                                                 opentext[n]["replacefunction"])
+                  end
+               end
+            end
+         end
       end
       return t1
    end
