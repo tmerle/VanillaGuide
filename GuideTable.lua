@@ -52,13 +52,16 @@ function objGuideTable:new(oSettings)
       local startPos, endPos = strfind(match,"ID%d+#")
       if startPos ~= nil then -- ID instead of quest name, replace by quest name!
          questid=strsub(match,startPos+2,endPos-1) -- don't take trailing '#'
-         local maps, meta = {}, { ["addon"] = "VGuide", ["qlogid"] = tonumber(questid) }
-         maps = pfDatabase:SearchQuestID(tonumber(questid), meta, maps)
-         if meta["quest"] ~= nil then
-            return replacecolor..meta["quest"].."|r"
+	 local rc=""
+	 -- access directly database raw data since pfSearchQuestID has side effect (shows all quests on map)
+	 if pfDB.quests.loc[tonumber(questid)].T ~= nil then
+	    rc=replacecolor..pfDB.quests.loc[tonumber(questid)].T
          else
-            return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+	    message "nil"
+            rc=replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
          end
+	 meta=nil
+	 return rc
       else
          return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
       end
@@ -85,12 +88,13 @@ function objGuideTable:new(oSettings)
       local action="#NPC"
       local startPos, endPos = strfind(match,"ID%d+#")
       if startPos ~= nil then -- ID instead of NPC name, replace by NPC name!
-         mobid=strsub(match,startPos,endPos-1) -- don't take trailing '#'
-         local maps, meta = {}, { ["addon"] = "VGuide", ["spawnid"] = tonumber(mobid) }
-         maps = pfDatabase:SearchMobID(tonumber(mobid), meta, maps)
-         if meta["spawn"] ~= nil then
-            return replacecolor..meta["spawn"].."|r"
+         mobid=strsub(match,startPos+2,endPos-1) -- don't take trailing '#'
+	 local loc = GetLocale()
+
+         if pfDB["units"][loc][tonumber(mobid)] ~= nil then
+            return replacecolor..pfDB["units"][loc][tonumber(mobid)].."|r"
          else
+	    Di(mobid)
             return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
          end
       else
@@ -115,12 +119,10 @@ function objGuideTable:new(oSettings)
       local startPos, endPos = strfind(match,"ID%d+#")
       local action="#ITEM"
       if startPos ~= nil then -- ID instead of ITEM name, replace by ITEM name!
-         itemid=strsub(match,startPos,endPos-1) -- don't take trailing '#'
-         local maps, meta = {}, { ["addon"] = "VGuide", ["itemid"] = tonumber(itemid) }
-         local allowedTypes = {}
-         maps = pfDatabase:SearchItemID(tonumber(itemid), meta, maps,allowedTypes) -- allowedtypes not nil but empty since we don't care about where to find it (yet)
-         if meta["item"] ~= nil then
-            return replacecolor..meta["item"].."|r"
+         itemid=strsub(match,startPos+2,endPos-1) -- don't take trailing '#'
+	 local loc = GetLocale()
+         if pfDB["items"][loc][tonumber(itemid)] ~= nil then
+            return replacecolor..pfDB["items"][loc][tonumber(itemid)].."|r"
          else
             return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
          end
@@ -134,11 +136,10 @@ function objGuideTable:new(oSettings)
       local startPos, endPos = strfind(match,"ID%d+#")
       local action="#OBJECT"
       if startPos ~= nil then -- ID instead of OBJECT name, replace by OBJECT name!
-         objectid=strsub(match,startPos,endPos-1) -- don't take trailing '#'
-         local maps, meta = {}, { ["addon"] = "VGuide", ["spawnid"] = tonumber(objectid) }
-         maps = pfDatabase:SearchObjectID(tonumber(objectid), meta, maps)
-         if meta["spawn"] ~= nil then
-            return replacecolor..meta["spawn"].."|r"
+         objectid=strsub(match,startPos+2,endPos-1) -- don't take trailing '#'
+	 local loc = GetLocale()
+         if pfDB["objects"][loc][tonumber(objectid)] ~= nil then
+            return replacecolor..pfDB["objects"][loc][tonumber(objectid)].."|r"
          else
             return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
          end
