@@ -190,7 +190,8 @@ Table_003_Alliance_50to60 = {
          [7] = { str = "Go to #COORD[39,55]# and get the Markri rubbing for #DOID3449#", x = 39, y = 55, zone = "Azshara" },
          [8] = { str = "Go to #COORD[36,53]# and get the Beth'Amara Rubbing for #DOID3449#", x = 36, y = 53, zone = "Azshara" },
          [9] = { str = "Go to #COORD[39,50]# and get the Jin'yael rubbing for #DOID3449#", x = 39, y = 50, zone = "Azshara" },
-         [10] = { str = "Go to #COORD[42,42]# and turn in #INID8151# accept #GETID8153# this quest and the follow up are optional to do after you turn level 53, I do them so if you don't you'll be behind a little on the guide. It takes about 1-2 hours to get all the pieces for this and the next quest but will put you about 20-25% into the level", x = 42, y = 42, zone = "Azshara" },
+         [10] = { str = "Go to at #COORD[78,91]#, fire a #ITEMID8051# to invoke #NPCID8392#, and turn in #INID3449#", x = 78, y = 91, zone = "Azshara" },
+         [11] = { str = "Go to #COORD[42,42]# and turn in #INID8151# accept #GETID8153# this quest and the follow up are optional to do after you turn level 53, I do them so if you don't you'll be behind a little on the guide. It takes about 1-2 hours to get all the pieces for this and the next quest but will put you about 20-25% into the level", x = 42, y = 42, zone = "Azshara" },
       }
    },
 
@@ -218,7 +219,7 @@ Table_003_Alliance_50to60 = {
          [14] = { str = "Inside the house turn in #INID4421# accept #GETID4906#" },
          [15] = { str = "Go back up to Jaedenar to the green pool at #COORD[35,59]# and fill the canteen for #DOID5157#", x = 35, y = 59, zone = "Felwood" },
          [16] = { str = "Go back to #COORD[51,82]# and turn in #INID5157# accept #GETID5158#", x = 51, y = 82, zone = "Felwood" },
-         [17] = { str = "Go up to #COORD[42,20]# and kill Entropic beasts and horrors and explore the craters for #DOID5156#.", x = 42, y = 20, zone = "Felwood" },
+         [17] = { str = "Go up to #COORD[42,40]# and kill Entropic beasts and horrors and explore the craters for #DOID5156#.", x = 42, y = 40, zone = "Felwood" },
          [18] = { str = "Go up to #COORD[46,14]# and follow it to the back, killing the demons for #DOID4906# When you kill Xavaric he'll drop Flute of Xavaric which starts #GETID939# kill the satyr's to complete this.", x = 46, y = 14, zone = "Felwood" },
          [19] = { str = "Run over to Irontree Cavern at #COORD[55,17]# and kill 15 of the elementals and that should be enough for #DOID4101#", x = 55, y = 17, zone = "Felwood" },
          [20] = { str = "Go up to #COORD[62,24]# and get the FP", x = 62, y = 24, zone = "Felwood" },
@@ -247,7 +248,7 @@ Table_003_Alliance_50to60 = {
          [43] = { str = "Go to #COORD[62,36]# and grab the FP", x = 62, y = 36, zone = "Winterspring" },
          [44] = { str = "Fly to Rachet" },
          [45] = { str = "Run west of the dock and turn in #INID4502#" },
-         [46] = { str = "Run down to #COORD[65,43]# and turn in #INID5158# accept Cleansed Water Returns to Felwood", x = 65, y = 43, zone = "The Barrens" },
+         [46] = { str = "Run down to #COORD[65,43]# and turn in #INID5158# accept #GETID5159#", x = 65, y = 43, zone = "The Barrens" },
          [47] = { str = "Fly to Theramore and sail to Menethil then fly to IF" },
          [48] = { str = "Just outside the Military Ward there should be a wandering npc, one is near FP too, grab the quest #GETID1000# pt.1" },
          [49] = { str = "Go to #COORD[75,23]# and turn in #INID4512# pt.1 accept #GETID4513# pt.2", x = 75, y = 23, zone = "Ironforge" },
@@ -265,7 +266,7 @@ Table_003_Alliance_50to60 = {
       --itemCount = 20,
       items = {
          [1] = { str = "54-54 Tanaris" },
-         [2] = { str = "Get your mithril casing out of your bank or mailbox" },
+         [2] = { str = "Get your #ITEMID10561# out of your bank or mailbox" },
          [3] = { str = "Go east to the GY at #COORD[54,28]# and drink your videre elixir", x = 54, y = 28, zone = "Tanaris" },
          [4] = { str = "Now you're gonna die, don't rez just release and run north to #COORD[53,23]# and turn in #INID3912# accept #GETID3913#", x = 53, y = 23, zone = "Tanaris" },
          [5] = { str = "Go back and rez at #COORD[54,28]# and touch the only tombstone there, turn in #INID3913# accept #GETID3914#", x = 54, y = 28, zone = "Tanaris" },
@@ -323,7 +324,7 @@ Table_003_Alliance_50to60 = {
       --itemCount = 34,
       items = {
          [1] = { str = "54-55 Winterspring" },
-         [2] = { str = "Go in Everlook accept #GETID3861# pt.1" },
+         [2] = { str = "Go in Everlook accept #GETID4861# pt.1" },
          [3] = { str = "Go in the Inn, make it your home" },
          [4] = { str = "Accept #GETID6028# #GETID6030# and #GETID5601#" },
          [5] = { str = "On the other side of town accept #GETID977# pt.1" },

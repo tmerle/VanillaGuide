@@ -404,7 +404,7 @@ Table_003_Alliance_40to50 = {
          [38] = { str = "Go to #COORD[77,11]# and turn in #INID2977# accept #GETID2964# and #GETID3448#", x = 77, y = 11, zone = "Ironforge" },
          [39] = { str = "Turn around to #COORD[70,18]# and turn in #INID2964#", x = 70, y = 18, zone = "Ironforge" },
          [40] = { str = "Go to 31,4 and turn in #INID3448# accept #GETID3449# and #GETID3450#", x = 31, y = 4, zone = "Ironforge" },
-         [41] = { str = "Go to #COORD[70,93]#, turn in #INID3450# accept #GETID3451# then turn it back in. Now you got the flare gun to signal later on.", x = 70, y = 93, zone = "Ironforge" },
+         [41] = { str = "Go to #COORD[70,93]#, turn in #INID3450# accept #GETID3451# then turn it back in. Now you got the #ITEMID10444# to signal later on.", x = 70, y = 93, zone = "Ironforge" },
          [42] = { str = "Fly to the Hinterlands" },
       }
    },
@@ -458,7 +458,7 @@ Table_003_Alliance_40to50 = {
          [20] = { str = "Go near the boat, turn in #INID614#" },
          [21] = { str = "Go up top of the Inn, turn in #INID608# pt.5" },
          [22] = { str = "Fly to SW and go to #COORD[64,20]# turn in #INID1469# SKIP the rest", x = 64, y = 20, zone = "Stormwind" },
-         [23] = { str = "From here on, either look at the AH when you go by one, or use your AH char to search for your Beaststalker Bracers. I got mine for 8g also look for a mithril casing for later in Un'Goro" },
+         [23] = { str = "From here on, either look at the AH when you go by one, or use your AH char to search for your Beaststalker Bracers. I got mine for 8g also look for a #ITEMID10561# for later in Un'Goro" },
          [24] = { str = "Fly to Duskwood" },
          [25] = { str = "Run east through Deadwind Pass to the Swamp of Sorrows" },
          [26] = { str = "Follow the road until it forks and the left fork has a bridge at #COORD[22,48]# and under it is A Soggy Scroll which turns in #INID624# pt.1# accept #GETID625# pt.2", x = 22, y = 48, zone = "Swamp of Sorrow" },
