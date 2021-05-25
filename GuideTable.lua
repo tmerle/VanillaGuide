@@ -148,6 +148,40 @@ function objGuideTable:new(oSettings)
       end
    end
 
+   local function replacePROFESSIONid(match)
+      local replacecolor = "|c00fca742"
+      local startPos, endPos = strfind(match,"ID%d+#")
+      local action="#PRO"
+      if startPos ~= nil then -- ID instead of PROFESSION name, replace by PROFESSION name!
+         proid=strsub(match,startPos+2,endPos-1) -- don't take trailing '#'
+	 local loc = GetLocale()
+         if pfDB["professions"][loc][tonumber(proid)] ~= nil then
+            return replacecolor..pfDB["professions"][loc][tonumber(proid)].."|r"
+         else
+            return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+         end
+      else
+         return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+      end
+   end
+
+   local function replaceZONEid(match)
+      local replacecolor = "|c00fca742"
+      local startPos, endPos = strfind(match,"ID%d+#")
+      local action="#PRO"
+      if startPos ~= nil then -- ID instead of ZONE name, replace by ZONE name!
+         proid=strsub(match,startPos+2,endPos-1) -- don't take trailing '#'
+	 local loc = GetLocale()
+         if pfDB["zones"][loc][tonumber(proid)] ~= nil then
+            return replacecolor..pfDB["zones"][loc][tonumber(proid)].."|r"
+         else
+            return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+         end
+      else
+         return replacecolor..strsub(match,strlen(action)+1,strlen(match)-1).."|r"
+      end
+   end
+
    local function ColorizeTable(t1)
       for k1, _ in pairs(t1) do
          if type(t1[k1].items) == "table" then
@@ -189,6 +223,14 @@ function objGuideTable:new(oSettings)
                      [9] = {
                         ["find"] = "#OBJECT[^#]+#",
                         ["replacefunction"] = replaceOBJECTid
+                     },
+                     [10] = {
+                        ["find"] = "#PROID[^#]+#",
+                        ["replacefunction"] = replacePROFESSIONid
+                     },
+                     [11] = {
+                        ["find"] = "#ZONEID[^#]+#",
+                        ["replacefunction"] = replaceZONEid
                      },
                   }
                   for n = 1, getn(opentext) do

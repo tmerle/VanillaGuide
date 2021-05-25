@@ -23,7 +23,7 @@ Table_003_Alliance_12to20 = {
       title = "12-14 Darkshore",
       --L- Playtested and corrected
       items = {
-         [1] = { str = "12-14 Darkshore" },
+         [1] = { str = "12-14 #ZONEID148#" },
          [2] = { str = "Get #GETID3524# pt.1 from #NPC# next to the flightmaster, and #GETFor Love Eternal# at the docks at #COORD[35,43]#.", x = 35, y = 43, zone = "Darkshore" },
          [3] = { str = "Be sure to pick up the flightpath aswell, unless you came from Teldrassil. Set Auberdine as your home." },
          [4] = { str = "Accept #GETID983# upstairs in the Inn, #GETID947# in front of the Inn and #GETID4811# near the bridge" },
@@ -50,7 +50,7 @@ Table_003_Alliance_12to20 = {
       }
    },
    [1417] = {
-      title = "14-17 Darkshore",
+      title = "14-17 #ZONEID148#",
       --L- Playtested and corrected
       items = {
          [1] = { str = "14-17 Darkshore" },
@@ -81,17 +81,17 @@ Table_003_Alliance_12to20 = {
          [25] = { str = "Hearth back to Auberdine." },
          [26] = { str = "Turn in #INID4723#, #INID1138#, #INID4763# and #INID2139#." },
          [27] = { str = "Get on boat to Menethil Harbor, the left/south pier." },
-         [28] = { str = "If you got flightpath to Thelsamar (Loch Modan), fly there, if not, run to #COORD[54,73]#, and follow the mountainpath to Loch Modan.", x = 54, y = 73, zone = "Wetlands" },
+         [28] = { str = "If you got flightpath to Thelsamar (Loch Modan), fly there, if not, run to #COORD[54,73]#, and follow the mountainpath to #ZONEID38#.", x = 54, y = 73, zone = "Wetlands" },
       }
    },
    [1718] = {
       title = "17-18 Loch Modan",
       --L- Playtested and corrected
       items = {
-         [1] = { str = "17-18 Loch Modan" },
-         [2] = { str = "Go to the Algaz Station bunker at #COORD[24,18]#, and accept #GETID307# and #GETID1338#.", x = 24, y = 18, zone = "Loch Modan" },
+         [1] = { str = "17-18 #ZONEID38#" },
+         [2] = { str = "Go to the #ZONEID925# bunker at #COORD[24,18]#, and accept #GETID307# and #GETID1338#.", x = 24, y = 18, zone = "Loch Modan" },
          [3] = { str = "Run to the Cave at #COORD[35,18]# and do #DOID307#, #ITEMID2640# are looted from the ground. Turn it in back at the bunker.", x = 35, y = 18, zone = "Loch Modan" },
-         [4] = { str = "Go to Thelsamar at #COORD[33,50]#, and get the flightpath if you don't have it. DO NOT make it your home.", x = 33, y = 50, zone = "Loch Modan" },
+         [4] = { str = "Go to #ZONEID144# at #COORD[33,50]#, and get the flightpath if you don't have it. DO NOT make it your home.", x = 33, y = 50, zone = "Loch Modan" },
          [5] = { str = "Accept #GETID436# in the last house on the right, go turn it in at #COORD[65,67]#, accept #GETID297# and #GETID298#.", x = 65, y = 67, zone = "Loch Modan" },
          [6] = { str = "Do #DOID297# in the Excavation site just west, then turn it back in." },
          [7] = { str = "Run around the excavation site, and get to the house at #COORD[82,62]#.", x = 82, y = 62, zone = "Loch Modan" },
@@ -101,31 +101,31 @@ Table_003_Alliance_12to20 = {
          [11] = { str = "Turn in #INID258#, accept #GETID271# pt.1." },
          [12] = { str = "Go to #COORD[64,48]# and accept #GETID2038#. Do #DOID385# here on the shore, and on the island at #COORD[54,38]# if necessary.", x = 64, y = 48, zone = "Loch Modan" },
          [13] = { str = "Get all the parts for #DOID2038#. #ITEMID7376# at #COORD[54,27]#, #ITEMID7343# at #COORD[49,30]#, #ITEMID7346# at #COORD[52,24]#, and #ITEMID7345# at #COORD[48,21]#.", x = 54, y = 27, zone = "Loch Modan" },
-         [14] = { str = "Access the dam from the west side and accept #GETID161# pt.1 at #COORD[46,14]#, then run out the east entrance and turn it in at the #OBJECTID257#, accept #GETID199# pt.2", x = 45, y = 13, zone = "Loch Modan" },
+         [14] = { str = "Access the #ZONEID146# from the west side and accept #GETID161# pt.1 at #COORD[46,14]#, then run out the east entrance and turn it in at the #OBJECTID257#, accept #GETID199# pt.2", x = 45, y = 13, zone = "Loch Modan" },
          [15] = { str = "Run back and turn in #INID199# pt.2 at #COORD[46,14]#, SKIP #SKIPID250# pt.3.", x = 45, y = 13, zone = "Loch Modan" },
-         [16] = { str = "Run down to Thelsamar and turn in #INID298# at #COORD[37,47]#, accept #GETID301#.", x = 37, y = 47, zone = "Loch Modan" },
+         [16] = { str = "Run down to #ZONEID144# and turn in #INID298# at #COORD[37,47]#, accept #GETID301#.", x = 37, y = 47, zone = "Loch Modan" },
          [17] = { str = "Go to #COORD[38,61]# and do #DOID271# pt.1.", x = 38, y = 61, zone = "Loch Modan" },
          [18] = { str = "Run back to the house at #COORD[83,62]# turn in #INID385# and #INID271# pt.1#, accept #GETID531# pt.2, and turn it in.", x = 83, y = 62, zone = "Loch Modan" },
          [19] = { str = "Go to #COORD[63,47]# and turn in #INID2038#.", x = 63, y = 47, zone = "Loch Modan" },
-         [20] = { str = "If you got Ironforge flightpath, fly there, if not, run down to #COORD[22,70]# and follow the path North into Dun Morogh", x = 22, y = 70, zone = "Loch Modan" },
-         [21] = { str = "Run along the road to Ironforge at #COORD[53,35]#.", x = 53, y = 35, zone = "Dun Morogh" },
+         [20] = { str = "If you got #ZONEID1537# flightpath, fly there, if not, run down to #COORD[22,70]# and follow the path North into #ZONEID1#", x = 22, y = 70, zone = "Loch Modan" },
+         [21] = { str = "Run along the road to #ZONEID1537# at #COORD[53,35]#.", x = 53, y = 35, zone = "Dun Morogh" },
          [22] = { str = "Get Ironforge weapon training at #COORD[61,89]#, and get flight path at #COORD[55,38]#. Turn in #INID301# at #COORD[74,12]#, SKIP #SKIPPowder to Ironband#.", x = 74, y = 12, zone = "Ironforge" },
-         [23] = { str = "Get on the tram to Stormwind at #COORD[76,51]#.", x = 76, y = 51, zone = "Ironforge" },
+         [23] = { str = "Get on the tram to #ZONEID1519# at #COORD[76,51]#.", x = 76, y = 51, zone = "Ironforge" },
          [24] = { str = "Turn in #INID1338# at #COORD[58,16]# in Stormwind.", x = 58, y = 16, zone = "Stormwind City" },
          [25] = { str = "Get Stormwind weapon training at #COORD[57,57]#, and flightpath at #COORD[66,62]#.", x = 66, y = 62, zone = "Stormwind City" },
-         [26] = { str = "Leave Stormwind, then run towards #COORD[91,73]# in Elwynn Forest, and enter Redridge Mountains", x = 91, y = 73, zone = "Elwynn Forest" },
+         [26] = { str = "Leave #ZONEID1519#, then run towards #COORD[91,73]# in #ZONEID12#, and enter #ZONEID44#", x = 91, y = 73, zone = "Elwynn Forest" },
       }
    },
    [1820] = {
       title = "18-20 Redridge Mountains",
       --L- Playtested and corrected
       items = {
-         [1] = { str = "18-20 Redridge Mountains" },
+         [1] = { str = "18-20 #ZONEID44#" },
          [2] = { str = "Accept #GETID244# from #NPCID464# at #COORD[15,71]#.", x = 15, y = 71, zone = "Redridge Mountains" },
          [3] = { str = "Turn in #INID244# at #COORD[30,60]#, accept #GETID246#. Get the flightpath.", x = 30, y = 60, zone = "Redridge Mountains" },
-         [4] = { str = "Cross the bridge, accept #GETID20#, #GETID125# and #GETID89#. SKIP #SKIPThe Price of Shoes#" },
+         [4] = { str = "Cross the bridge, accept #GETID20#, #GETID125# and #GETID89#. SKIP #SKIPID118#" },
          [5] = { str = "Accept #GETID3741# on the dock, accept #GETID127# near the shed outside the Inn. Go inside the Inn and accept #GETID129#, SKIP #SKIPDry Times#." },
-         [6] = { str = "Go west of Lakeshire and accept #GETID92# inside the house at #COORD[23,44]#.", x = 23, y = 44, zone = "Redridge Mountains" },
+         [6] = { str = "Go west of #ZONEID69# and accept #GETID92# inside the house at #COORD[23,44]#.", x = 23, y = 44, zone = "Redridge Mountains" },
          [7] = { str = "Get 5 #ITEMID2296# for #DOID92# just west of the houses. Beware #NPCID345#. Loot #ITEMID10958# from the #OBJECTID154357# underwater at #COORD[19,52]#.", x = 19, y = 52, zone = "Redridge Mountains" },
          [8] = { str = "Head towards #COORD[42,55]# for #DOID125# and #DOID127#. Save at least 8 #ITEMID1468# for a later quest.", x = 42, y = 55, zone = "Redridge Mountains" },
          [9] = { str = "Turn in #INID125# by the bridge, #INID3741# on the dock, and #INID127# by the shed. You should be half way to level 20 at this point." },
@@ -133,10 +133,10 @@ Table_003_Alliance_12to20 = {
          [11] = { str = "Kill #NPCID442s# for #DOID92# between #COORD[15,71]# and #COORD[33,76]#.", x = 33, y = 76, zone = "Redridge Mountains" },
          [12] = { str = "Do #DOID246# at #COORD[31,84]# and #COORD[43,72]#.", x = 43, y = 72, zone = "Redridge Mountains" },
          [13] = { str = "Kill #NPCID428# for #DOID92# around #COORD[57,76]#", x = 57, y = 73, zone = "Redridge Mountains" },
-         [14] = { str = "Run back to Lakeshire, turn in #INID246# near the flightpath. Go to the two houses West of Lakeshire, at #COORD[23,46]# and turn in #INID92# and #INID130#, accept #GETID131#", x = 23, y = 46, zone = "Redridge Mountains" },
+         [14] = { str = "Run back to #ZONEID69#, turn in #INID246# near the flightpath. Go to the two houses West of #ZONEID69#, at #COORD[23,46]# and turn in #INID92# and #INID130#, accept #GETID131#", x = 23, y = 46, zone = "Redridge Mountains" },
          [15] = { str = "Go in the Inn and turn in #INID131#. You should now be level 20, accept #GETID150# in front of the shed, if you still have the #ITEMID1468# in your bag, turn it in." },
-         [16] = { str = "Kill #NPCID426# North of Lakeshire for #DOID89#, then turn it in." },
-         [17] = { str = "Hearth back to Auberdine. You should definitely be level 20 by this point and at least half way to level 21." },
+         [16] = { str = "Kill #NPCID426# North of #ZONEID69# for #DOID89#, then turn it in." },
+         [17] = { str = "Hearth back to #ZONEID442#. You should definitely be level 20 by this point and at least half way to level 21." },
       }
    },
 }

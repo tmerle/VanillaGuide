@@ -23,25 +23,25 @@ Table_004_Professions = {
       --pID = 1, nID = 10003,
       --itemCount = 14,
       items = {
-         [1] = { str = "#NPC1-300 Alchemy#" },
-         [2] = { str = "#DOQUESTAprx. Mats Required#: #VIDEO60#x #TURNINPeacebloom# #VIDEO60#x #TURNINSilverleaf# #VIDEO75#x #TURNINEmpty Vial#" ..
-                    "#VIDEO80#x #TURNINBriarthorn# #VIDEO30#x #TURNINBruiseweed# #VIDEO65#x #TURNINLeaded Vial#" .. 
-                    "#VIDEO15#x #TURNINMageroyal# #VIDEO40#x #TURNINStranglekelp# #VIDEO30#x #TURNINLiferoot# #VIDEO30#x #TURNINKingsblood#" ..
-                    "#VIDEO45#x #TURNINGoldthorn# #VIDEO5#x #TURNINSteelbloom# #VIDEO70#x #TURNINSungrass#" ..
-                    "#VIDEO15#x #TURNINKhadgars Whisker# #VIDEO90#x #TURNINCrystal Vial# #VIDEO20#x #TURNINArthas Tears#" ..
-                    "#VIDEO40#x #TURNINBlindweed# #VIDEO40#x #TURNINGolden Sansam# #VIDEO40#x #TURNINMountain Silversage#" },
-         [3] = { str = "#VIDEO[1-60]# 60x Minor Healing Potions (1x Peacebloom, 1x Silverleaf, 1x Empty Vial)" },
-         [4] = { str = "#VIDEO[60-110]# 50x Lesser Healing Potions (1x Minor Healing Potion, 1x Briarthorn)" },
-         [5] = { str = "#VIDEO[110-140]# 30x Healing Potion (1x Bruiseweed, 1x Briarthorn, 1x Leaded Vial)" },
-         [6] = { str = "#VIDEO[140-155]# 15x Lesser Mana Potion (1x Mageroyal, 1x Stranglekelp, 1x Empty Vial)" },
-         [7] = { str = "#VIDEO[155-185]# 30x Greater Healing Potions (1x Liferoot, 1x Kingsblood, 1x Leaded Vial)" },
-         [8] = { str = "#VIDEO[185-210]# 25x Elixir of Agility (1x Stranglekelp, 1x Goldthorn, 1x Leaded Vial)" },
-         [9] = { str = "#VIDEO[210-215]# 5x Elixir of Greater Defence (1x Steelbloom, 1x Goldthorn, 1x Leaded Vial)" },
-         [10] = { str = "#VIDEO[215-230]# 15x Superior Healing Potion (1x Sungrass, 1x Khadgars Wisker, 1x Crystal Vial)" },
-         [11] = { str = "#VIDEO[230-250]# 20x Elixir of Detect Undead (1x Arthas Tears, 1x Crystal Vial)" },
-         [12] = { str = "#VIDEO[250-265]# 15x Elixir of Greater Agility (1x Sungrass, 1x Goldthorn, 1x Crystal Vial)" },
-         [13] = { str = "#VIDEO[265-285]# 20x Superior Mana Potion (2x Sungrass, 2x Blindweed, 1x Crystal Vial)" },
-         [14] = { str = "#VIDEO[285-300]# 20x Major Healing Potion (2x Golden Sansam, 1x Mountain Silversage, 1x Crystal Vial)" },
+         [1] = { str = "#NPC1-300# #PROID171#" },
+         [2] = { str = "#DOQUESTAprx. Mats Required#: #VIDEO60#x #ITEMID2447# #VIDEO60#x #ITEMID765# #VIDEO75#x #ITEMID3371#" ..
+                    "#VIDEO80#x #MOBID5172# #VIDEO30#x #ITEMID2453# #VIDEO65#x #ITEMID3372#" .. 
+                    "#VIDEO15#x #ITEMID785# #VIDEO40#x #ITEMID3820# #VIDEO30#x #ITEMID3357# #VIDEO30#x #ITEMID3356#" ..
+                    "#VIDEO45#x #ITEMID3821# #VIDEO5#x #IDTEMID3355# #VIDEO70#x #ITEMID8838#" ..
+                    "#VIDEO15#x #ITEMID3358# #VIDEO90#x #ITEMID8925# #VIDEO20#x #ITEMID8836#" ..
+                    "#VIDEO40#x #ITEMID8839# #VIDEO40#x #ITEMID13464# #VIDEO40#x #ITEMID13465#" },
+         [3] = { str = "#VIDEO[1-60]# 60x #ITEMID118# (1x #ITEMID2447#, 1x #ITEMID765#, 1x #ITEMID3771#)" },
+         [4] = { str = "#VIDEO[60-110]# 50x #ITEMID858# (1x #ITEMID118#, 1x #ITEMID2450#)" },
+         [5] = { str = "#VIDEO[110-140]# 30x #ITEMID929# (1x #ITEMID2453#, 1x #ITEMID2450#, 1x #ITEMID3372#)" },
+         [6] = { str = "#VIDEO[140-155]# 15x #ITEMID3385# (1x #ITEMID785#, 1x #ITEMID3820#, 1x #ITEMID3771#)" },
+         [7] = { str = "#VIDEO[155-185]# 30x #ITEMID1710# (1x #ITEMID3357#, 1x #ITEMID3356#, 1x #ITEMID3372#)" },
+         [8] = { str = "#VIDEO[185-210]# 25x #ITEMID8949# (1x #ITEMID3820#, 1x #ITEMID3821#, 1x #ITEMID3372#)" },
+         [9] = { str = "#VIDEO[210-215]# 5x #ITEMID8951# (1x #ITEMID3355#, 1x #ITEMID3821#, 1x #ITEMID3372#)" },
+         [10] = { str = "#VIDEO[215-230]# 15x #ITEMID3928# (1x #ITEMID8838#, 1x #ITEMID3358#, 1x #ITEMID8925#)" },
+         [11] = { str = "#VIDEO[230-250]# 20x #ITEMID9154# (1x #ITEMID8836#, 1x #ITEMID8925#)" },
+         [12] = { str = "#VIDEO[250-265]# 15x #ITEMID9187# (1x #ITEMID8838#, 1x #ITEMID3821#, 1x #ITEMID8925#)" },
+         [13] = { str = "#VIDEO[265-285]# 20x #ITEMID13443# (2x #ITEMID8838#, 2x #ITEMID8839#, 1x #ITEMID8925#)" },
+         [14] = { str = "#VIDEO[285-300]# 20x #ITEMID13446# (2x #ITEMID13464#, 1x #ITEMID13465#, 1x #ITEMID8925#)" },
       }
    },
 

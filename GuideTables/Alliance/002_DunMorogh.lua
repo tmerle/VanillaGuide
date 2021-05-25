@@ -19,10 +19,10 @@
 --]]--------------------------------------------------
 Table_002_DunMorogh = {
    [0106] = {
-      title = "1-6 Cold Ridge Valley",
+      title = "1-6 Coldridge Valley",
       --L- Needs playtest
       items = {
-         [1] = { str = "1-6 Cold Ridge Valley" },
+         [1] = { str = "1-6 #ZONEID132#" },
          [2] = { str = "Right in front of where you start accept #GETID179#" },
          [3] = { str = "Go south around #COORD[28,73]# and kill #NPCID705# for the #ITEMID750# then go back to #COORD[29,71]# and turn in #INID179# then accept #GET3109# and #GETID233# ", x = 29, y = 71, zone = "Dun Morogh" },
          [4] = { str = "To your left accept #GETID170# " },
@@ -44,7 +44,7 @@ Table_002_DunMorogh = {
          [20] = { str = "Go further back and turn in #INID3364# accept #GETID3365#." },
          [21] = { str = "Get training before you leave." },
          [22] = { str = "Run right to #COORD[25,75]#, everything is yellow so nothing will attack you, and turn in #INID3365#.", x = 25, y = 75, zone = "Dun Morogh" },
-         [23] = { str = "Head toward the tunnel and turn in #IN282# pt.1 at #COORD[33,71]# and accept #GETID283# pt.2.", x = 33, y = 71, zone = "Dun Morogh" },
+         [23] = { str = "Head toward the tunnel and turn in #INID282# pt.1 at #COORD[33,71]# and accept #GETID283# pt.2.", x = 33, y = 71, zone = "Dun Morogh" },
          [24] = { str = "You should be about 500 xp to 6 now." },
          [25] = { str = "About 10 feet away accept #GETID2160#." },
       }
@@ -53,7 +53,7 @@ Table_002_DunMorogh = {
       title = "6-12 Dun Morogh",
       --L- Needs playtest
       items = {
-         [1] = { str = "6-12 Dun Morogh" },
+         [1] = { str = "6-12 #ZONEID1#" },
          [2] = { str = "Go through the tunnel and kill all the mobs on the way. Follow the road to #COORD[46,53]# in Kharanos and kill mobs until you’re level 6. Save your #ITEMID2677# and #ITEMID2681#.", x = 46, y = 53, zone = "Dun Morogh" },
          [3] = { str = "Once at #COORD[46,53]# turn in #INID420# pt.2" },
          [4] = { str = "Up ahead on the right, in front of the Inn, accept #GETID384#" },
@@ -91,9 +91,9 @@ Table_002_DunMorogh = {
          [36] = { str = "Either straight down the steps of the Inn, or north of the GY, turn in #INID287# accept #GETID291# " },
          [37] = { str = "Go NW in the house at #COORD[45,49]# and turn in #INID412# ", x = 45, y = 49, zone = "Dun Morogh" },
          [38] = { str = "Go east to #COORD[49,48]# and turn in #INID320# you should be half way to level 10 now " },
-         [39] = { str = "Go North to IF at #COORD[53,35]# ", x = 53, y = 35, zone = "Dun Morogh" },
-         [40] = { str = "Make IF your home at #COORD[21,55]# ", x = 21, y = 55, zone = "Ironforge" },
-         [41] = { str = "Go to #COORD[39,56]# in IF, behind the bank, in the kings room, turn in #INID291#", x = 39, y = 56, zone = "Ironforge" },
+         [39] = { str = "Go North to #ZONEID1537# at #COORD[53,35]# ", x = 53, y = 35, zone = "Dun Morogh" },
+         [40] = { str = "Make #ZONEID1537# your home at #COORD[21,55]# ", x = 21, y = 55, zone = "Ironforge" },
+         [41] = { str = "Go to #COORD[39,56]# in #ZONEID1537#, behind the bank, in the kings room, turn in #INID291#", x = 39, y = 56, zone = "Ironforge" },
          [42] = { str = "Enter the tram at #COORD[76,51]# ", x = 76, y = 51, zone = "Ironforge" },
          [43] = { str = "Take the tram down to SW " },
          --L- Cross check with Elwynd Guide
@@ -112,7 +112,7 @@ Table_002_DunMorogh = {
          [56] = { str = "Go back to #COORD[34,84]# and turn in #INID111# in the house, accept #GETID107# You should be level 10 now ", x = 34, y = 84, zone = "Elwynn Forest" },
          [57] = { str = "Go back to Goldshire, either die or run " },
          --L- Cross check with Elwynd Guide
-         [58] = { str = "Go into the tram again at #COORD[63,10]# accept #GETID6661# just collect 5 rats and turn it in. You could skip this and keep the flute, It can really piss people off if you play it non stop around the IF bank. SKIP #VIDEOMe Brother, Nipsy# unless you go back to SW on the tram because you get crap xp", x = 63, y = 10, zone = "Stormwind City" },
+         [58] = { str = "Go into the tram again at #COORD[63,10]# accept #GETID6661# just collect 5 rats and turn it in. You could skip this and keep the flute, It can really piss people off if you play it non stop around the #ZONEID1537# bank. SKIP #VIDEOMe Brother, Nipsy# unless you go back to SW on the tram because you get crap xp", x = 63, y = 10, zone = "Stormwind City" },
          [59] = { str = "After this you should be a bit over half way to level 11 " },
          [60] = { str = "Run east to #COORD[68,55]# and accept #GETID433#", x = 68, y = 55, zone = "Dun Morogh" },
          [61] = { str = "Go behind him and accept #GETID432#" },
@@ -125,7 +125,7 @@ Table_002_DunMorogh = {
          [68] = { str = "Kill #NPCID1205#, #NPCID1206#, #NPCID1207# from #COORD[27,53]# and north for #DOID217# and #DOID267#", x = 27, y = 53, zone = "Loch Modan" },
          [69] = { str = "Go back to #COORD[22,73]# and turn them both in ", x = 22, y = 73, zone = "Loch Modan" },
          [70] = { str = "Go north to the bunker at #COORD[24,18]# and turn in #INID353#", x = 24, y = 18, zone = "Loch Modan" },
-         [71] = { str = "You should be level 12 now or close to it. You can grind if you’d like. Follow the Night Elf to IF guide but just go backwards. You’re going to go north through the wetlands to menethil, then take the boat to auberdine from here." },
+         [71] = { str = "You should be level 12 now or close to it. You can grind if you’d like. Follow the Night Elf to #ZONEID1537# guide but just go backwards. You’re going to go north through the #ZONEID11# to #ZONEID150#, then take the boat to #ZONEID442# from here." },
          --L- Someone has been way too lazy
       }
    },

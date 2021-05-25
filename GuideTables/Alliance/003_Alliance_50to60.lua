@@ -332,7 +332,7 @@ Table_003_Alliance_50to60 = {
          [7] = { str = "Run all the way south to #COORD[60,73]# to complete #GETID4842#", x = 60, y = 73, zone = "Winterspring" },
          [8] = { str = "Hearth back to Everlook, if it's not up die on purpose" },
          [9] = { str = "Go to #COORD[65,45]# and kill yeti's for #DOID977# pt.1", x = 65, y = 45, zone = "Winterspring" },
-         [10] = { str = "Run back to Everlook and turn in #INID977 pt.1 accept #GETID3783# pt.2" },
+         [10] = { str = "Run back to Everlook and turn in #INID977# pt.1 accept #GETID3783# pt.2" },
          [11] = { str = "Go back to #COORD[65,45]# and kill matriarch's and patriarch's for #DOID3783# pt.2 there are a lot in the cave at #COORD[67,42]#", x = 67, y = 42, zone = "Winterspring" },
          [12] = { str = "Run back to Everlook and turn in #INID3783# pt.2 accept #GETID5163# pt.3" },
          [13] = { str = "Go just east of the Inn and scare Legacki for #DOID5163# pt.3" },
