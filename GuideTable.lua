@@ -225,11 +225,11 @@ function objGuideTable:new(oSettings)
                         ["replacefunction"] = replaceOBJECTid
                      },
                      [10] = {
-                        ["find"] = "#PROID[^#]+#",
+                        ["find"] = "#PRO[^#]+#",
                         ["replacefunction"] = replacePROFESSIONid
                      },
                      [11] = {
-                        ["find"] = "#ZONEID[^#]+#",
+                        ["find"] = "#ZONE[^#]+#",
                         ["replacefunction"] = replaceZONEid
                      },
                   }
@@ -409,7 +409,7 @@ function objGuideTable:new(oSettings)
             { "v", "40-41 Badlands", id = nil },
             { "v", "41-41 Swamp of Sorrows", id = nil },
             { "v", "41-42 Desolace", id = nil },
-            { "v", "42-43 Stranglethron Vale", id = nil },
+            { "v", "42-43 Stranglethorn Vale", id = nil },
             { "v", "43-43 Tanaris", id = nil },
             { "v", "43-45 Feralas", id = nil },
             { "v", "45-46 Uldaman", id = nil },
@@ -792,7 +792,7 @@ Dv(" VGuide GuideTable.lua Start")
    [4041] = {   title = "40-41 Badlands" },
    [4141] = {   title = "41-41 Swamp of Sorrows" },
    [4142] = {   title = "41-42 Desolace" },
-   [4243] = {   title = "42-43 Stranglethron Vale" },
+   [4243] = {   title = "42-43 Stranglethorn Vale" },
    [4343] = {   title = "43-43 Tanaris" },
    [4345] = {   title = "43-45 Feralas" },
    [4546] = {   title = "45-46 Uldaman" },

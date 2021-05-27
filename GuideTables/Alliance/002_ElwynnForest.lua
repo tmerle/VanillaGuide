@@ -23,7 +23,7 @@ Table_002_ElwynnForest = {
       title = "1-10 Elwynn Forest",
       --L- Playtested and corrected
       items = {
-         [1] = { str = "1-10 Elwynn Forest" },
+         [1] = { str = "1-10 #ZONEID12#" },
          [2] = { str = "Accept #GETID783# then go in the building and turn it in, accept #GETID7#." },
          [3] = { str = "Run back out, and turn in #INID5805# at the wagons at #COORD[47,41]#.", x = 47, y = 41, zone = "Elwynn Forest" },
          [4] = { str = "Go to the nook at the NorthWest corner of the building at #COORD[48,40]# and accept #GETID33#.", x = 48, y = 40, zone = "Elwynn Forest" },
@@ -91,7 +91,7 @@ Table_002_ElwynnForest = {
       title = "10-12 Westfall and Loch Modan",
       --L- Playtested and corrected
       items = {
-         [1] = { str = "10-12 Westfall and Loch Modan" },
+         [1] = { str = "10-12 #ZONEID40# and #ZONEID38#" },
          [2] = { str = "Go to #COORD[60,19]# and turn in #INID184# if you found #ITEMID1972#.", x = 60, y = 19, zone = "Westfall" },
          [3] = { str = "Accept #GETID36# SKIP #SKIPPoor Old Blanchy#." },
          [4] = { str = "Go in the house at #COORD[56,30]# and turn in #INID36#.", x = 56, y = 30, zone = "Westfall" },

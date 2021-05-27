@@ -50,10 +50,10 @@ Table_003_Alliance_12to20 = {
       }
    },
    [1417] = {
-      title = "14-17 #ZONEID148#",
+      title = "14-17 Darkshore",
       --L- Playtested and corrected
       items = {
-         [1] = { str = "14-17 Darkshore" },
+         [1] = { str = "14-17 #ZONEID148#" },
          [2] = { str = "Turn in #INID957# pt.4 at #COORD[44,36]#.", x = 44, y = 36, zone = "Darkshore" },
          [3] = { str = "Kill #NPCID2069# and #NPCID2164# all around #COORD[48,30]#, for #DOID2138# and #DOID1002#, then head to #COORD[50,25]# for #DOID4762#.", x = 50, y = 25, zone = "Darkshore" },
          [4] = { str = "Accept #GETID4722# at #COORD[44,20]#", x = 44, y = 20, zone = "Darkshore" },

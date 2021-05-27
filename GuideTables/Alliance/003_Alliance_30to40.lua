@@ -27,7 +27,7 @@ Table_003_Alliance_30to40 = {
       --pID = 210, nID = 302,
       --itemCount = 13,
       items = {
-         [1] = { str = "30-31 Hillsbrad Foothills" },
+         [1] = { str = "30-31 #ZONEID267#" },
          [2] = { str = "Run into southshore at #COORD[49,52]# and grab the FP", x = 49, y = 52, zone = "Hillsbrad Foothills" },
          [3] = { str = "Stop at the barn east of the FP, accept #GETID564#" },
          [4] = { str = "Go to the house in front of the barn, turn in #INID538# SKIP the next part " },
@@ -51,7 +51,7 @@ Table_003_Alliance_30to40 = {
       --pID = 301, nID = 303,
       --itemCount = 8,
       items = {
-         [1] = { str = "31-31 Alterac Mountains" },
+         [1] = { str = "31-31 #ZONEID36#" },
          [2] = { str = "Run up into Alterac Mountains near the AV entrance around #COORD[64,38]# and kill lions for #DOID564# They’re all along the southern border near AV. I usually get all mine in front and West of AV", x = 64, y = 38, zone = "Alterac Mountains" },
          [3] = { str = "Go east of AV and do #DOID505# at the camp around #COORD[55,67]#. There is a camp close to AV but this one has a quest you can grab near the tents on the table. Clear the camp and touch the syndicate document, accept #GETID510# and #GETID511#", x = 55, y = 67, zone = "Alterac Mountains" },
          [4] = { str = "Hearth to Southshore" },
@@ -70,7 +70,7 @@ Table_003_Alliance_30to40 = {
       --pID = 302, nID = 304,
       --itemCount = 10,
       items = {
-         [1] = { str = "31-32 Arathi Highlands" },
+         [1] = { str = "31-32 #ZONEID45#" },
          [2] = { str = "Accept #GETID681# grind to it at #COORD[33,27]# I grind here until I’m level 32", x = 33, y = 27, zone = "Arathi Highlands" },
          [3] = { str = "Hearth to Southshore, Fly to Refuge point, turn in #INID681# Fly to IF" },
          [4] = { str = "Go to the hall of explorers at #COORD[69,20]# in IF accept #GETID1453# in Desolace then go turn in #INID514# accept #GETID525#", x = 69, y = 20, zone = "Arathi Highlands" },
@@ -91,7 +91,7 @@ Table_003_Alliance_30to40 = {
       --pID = 303, nID = 305,
       --itemCount = 19,
       items = {
-         [1] = { str = "32-32 Stranglethorn Vale" },
+         [1] = { str = "32-32 #ZONEID33#" },
          [2] = { str = "Run to the Rebel Camp at 37,3 its just west after you enter.", x = 37, y = 3, zone = "Stranglethorn Vale" },
          [3] = { str = "Accept #GETID203# and #GETID204#" },
          [4] = { str = "Then accept #GETID210#" },
@@ -121,7 +121,7 @@ Table_003_Alliance_30to40 = {
       --pID = 304, nID = 306,
       --itemCount = 19,
       items = {
-         [1] = { str = "32-33 Thousand Needles (Shimmering Flats)" },
+         [1] = { str = "32-33 #ZONEID439#" },
          [2] = { str = "Now Get the FP on the west side of this zone at 8,18, it’s just inside Feralas. This will save a lot of time later on.", x = 8, y = 18, zone = "Thousand Needles" },
          [3] = { str = "You should be close to level 33 so grind to it on your way to Shimmering Flats." },
          [4] = { str = "Go to #COORD[78,77]# and turn in #INID1179# accept #GETID1105# and #GETID1104#", x = 78, y = 77, zone = "Thousand Needles" },
@@ -151,7 +151,7 @@ Table_003_Alliance_30to40 = {
       --pID = 305, nID = 307,
       --itemCount = 2,
       items = {
-         [1] = { str = "33-33 Stonetalon Mountains" },
+         [1] = { str = "33-33 #ZONEID406#" },
          [2] = { str = "Accept #GETID1057# in front of the moonwell then go do it in the Charred Vale at #COORD[32,66]# while going towards Desolace ", x = 32, y = 66, zone = "Stonetalon Mountains" },
       }
    },
@@ -164,7 +164,7 @@ Table_003_Alliance_30to40 = {
       --pID = 306, nID = 308,
       --itemCount = 38,
       items = {
-         [1] = { str = "33-35 Desolace" },
+         [1] = { str = "33-35 #ZONEID405#" },
          [2] = { str = "Make Nijel’s Point your home then fly back to Stonetalon and hand in #INID1057# SKIP the next part." },
          [3] = { str = "Hearth back to Desolace" },
          [4] = { str = "Go south of the Inn, hand in #INID1453# in Desolace accept #GETID1458# pt.1 and #GETID1454# pt.1" },
@@ -213,7 +213,7 @@ Table_003_Alliance_30to40 = {
       --pID = 307, nID = 309,
       --itemCount = 38,
       items = {
-         [1] = { str = "35-36 Stranglethorn Vale" },
+         [1] = { str = "35-36 #ZONEID33#" },
          [2] = { str = "Hand in #INID1180# pt.2 as you get off the boat, accept #GETID1181# pt.3" },
          [3] = { str = "Go in the Inn make BB your home, Accept #GETID605#" },
          [4] = { str = "Accept #GETID213# and #GETID189#" },
@@ -262,7 +262,7 @@ Table_003_Alliance_30to40 = {
       --pID = 308, nID = 310,
       --itemCount = 10,
       items = {
-         [1] = { str = "36-37 Alterac Mountains" },
+         [1] = { str = "36-37 #ZONEID36#" },
          [2] = { str = "Go to the Town Hall and turn in #INID525# accept #GETID537# and #GETID512#" },
          [3] = { str = "Make Southshore your home" },
          [4] = { str = "Run into Alterac Mountains to #COORD[47,55]# and kill ogres for Crushridge Bounty", x = 47, y = 55, zone = "Alterac Mountains" },
@@ -283,7 +283,7 @@ Table_003_Alliance_30to40 = {
       --pID = 309, nID = 311,
       --itemCount = 28,
       items = {
-         [1] = { str = "37-38 Arathi Highlands" },
+         [1] = { str = "37-38 #ZONEID45#" },
          [2] = { str = "Accept #GETID691#" },
          [3] = { str = "Run to #COORD[62,33]# touch the crystal and accept #GETID642#", x = 62, y = 33, zone = "Arathi Highlands" },
          [4] = { str = "Go just east of Hammerfall to #COORD[80,40]#. (Load up on bloodstone ore here, you can sell it for a few g per 4 in BB) This is a tree, behind it is the path up to the cave to kill kobolds for #DOID642# If you get them all before the end of the cave you have to continue to the end to hand it in by touching Iridescent Shards and accept #GETID651#", x = 80, y = 40, zone = "Arathi Highlands" },
@@ -322,7 +322,7 @@ Table_003_Alliance_30to40 = {
       --pID = 310, nID = 312,
       --itemCount = 30,
       items = {
-         [1] = { str = "38-38 Dustwallow Marsh" },
+         [1] = { str = "38-38 #ZONEID15#" },
          [2] = { str = "Run up near the Inn, accept #GETID1282#" },
          [3] = { str = "Go in the Inn, accept #GETID1204# and make Theramore your home. " },
          [4] = { str = "Go to the 2nd floor of the castle behind the Inn, not the tower, turn in #INID1282# This gives you hints about some quests at the old Inn near the Barrens." },
@@ -363,7 +363,7 @@ Table_003_Alliance_30to40 = {
       --pID = 311, nID = 401,
       --itemCount = 38,
       items = {
-         [1] = { str = "38-40 Stranglethorn Vale" },
+         [1] = { str = "38-40 #ZONEID33#" },
          [2] = { str = "Run towards the Inn, accept #GETID595# pt.1 halfway" },
          [3] = { str = "Go in the building next to the half boat upside down, accept #GETID606#" },
          [4] = { str = "Go in the Inn, make it your home, accept #GETID600#" },

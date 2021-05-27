@@ -27,7 +27,7 @@ Table_003_Alliance_50to60 = {
       --pID = 413, nID = 502,
       --itemCount = 72,
       items = {
-         [1] = { str = "50-51 Searing Gorge" },
+         [1] = { str = "50-51 #ZONEID51#" },
          [2] = { str = "Go down to #COORD[65,62]# and touch the outhouse, accept #GETID4449#", x = 65, y = 62, zone = "Searing Gorge" },
          [3] = { str = "Go just below the outhouse and kill the geologists for #DOID4449#" },
          [4] = { str = "Clear all the mobs and at the bottom of the little pit, accept #GETID3367# pt.1 escort him to #COORD[74,19]# and when he dies grab the note which starts #GETID3368# pt.2", x = 74, y = 19, zone = "Searing Gorge" },
@@ -110,7 +110,7 @@ Table_003_Alliance_50to60 = {
       --pID = 501, nID = 503,
       --itemCount = 34,
       items = {
-         [1] = { str = "51-52 Un'Goro Crater" },
+         [1] = { str = "51-52 #ZONEID490#" },
          [2] = { str = "Keep an eye out for the following items laying around the crater: Power Crystals (need 7 of red,blue,green,yellow), Un'Goro Dirt Piles (get as many as you can), and Bloodpetal Sprouts: save in sets of 15" },
          [3] = { str = "I tell you to grind through the raptors here only for 1 reason. To find the item #ITEMID11116#. Once you have it you don't have to grind through the raptors." },
          [4] = { str = "Follow the path down to the waterfall at #COORD[71,75]# and accept #GETID4289# and #GETID4290#", x = 71, y = 75, zone = "Un'Goro Crater" },
@@ -181,7 +181,7 @@ Table_003_Alliance_50to60 = {
       --pID = 502, nID = 504,
       --itemCount = 10,
       items = {
-         [1] = { str = "52-53 Azshara" },
+         [1] = { str = "52-53 #ZONEID16#" },
          [2] = { str = "Just as you enter, on the right at #COORD[11,77]# grab the FP", x = 11, y = 77, zone = "Azshara" },
          [3] = { str = "Just behind him, accept #GETID5535# and #GETID5536#" },
          [4] = { str = "Go just north to around #COORD[14,72]# and #COORD[16,67]#and kill all the ghosts around here until you complete #DOID5535#", x = 14, y = 72, zone = "Azshara" },
@@ -203,7 +203,7 @@ Table_003_Alliance_50to60 = {
       --pID = 503, nID = 505,
       --itemCount = 51,
       items = {
-         [1] = { str = "53-54 Felwood" },
+         [1] = { str = "53-54 #ZONEID361#" },
          [2] = { str = "Stop at #COORD[54,86]# and accept #GETID4101#", x = 54, y = 86, zone = "Felwood" },
          [3] = { str = "Run north a little bit to #COORD[51,81]# and accept #GETID5155#", x = 51, y = 81, zone = "Felwood" },
          [4] = { str = "Inside the house, accept #GETID4421#" },
@@ -265,7 +265,7 @@ Table_003_Alliance_50to60 = {
       --pID = 504, nID = 506,
       --itemCount = 20,
       items = {
-         [1] = { str = "54-54 Tanaris" },
+         [1] = { str = "54-54 #ZONEID440#" },
          [2] = { str = "Get your #ITEMID10561# out of your bank or mailbox" },
          [3] = { str = "Go east to the GY at #COORD[54,28]# and drink your videre elixir", x = 54, y = 28, zone = "Tanaris" },
          [4] = { str = "Now you're gonna die, don't rez just release and run north to #COORD[53,23]# and turn in #INID3912# accept #GETID3913#", x = 53, y = 23, zone = "Tanaris" },
@@ -296,7 +296,7 @@ Table_003_Alliance_50to60 = {
       --pID = 505, nID = 507,
       --itemCount = 16,
       items = {
-         [1] = { str = "54-54 Felwood" },
+         [1] = { str = "54-54 #ZONEID361#" },
          [2] = { str = "Go to #COORD[51,82]# and turn in #INID5159# accept #GETID5165#", x = 51, y = 82, zone = "Felwood" },
          [3] = { str = "Go in the house, turn in #INID4441# accept #GETID4442# then turn it back in, easy 10k xp. Also turn in #INID3942# accept #GETID4084#" },
          [4] = { str = "You should be 70% through now or close to it" },
@@ -323,7 +323,7 @@ Table_003_Alliance_50to60 = {
       --pID = 506, nID = 508,
       --itemCount = 34,
       items = {
-         [1] = { str = "54-55 Winterspring" },
+         [1] = { str = "54-55 #ZONEID618#" },
          [2] = { str = "Go in Everlook accept #GETID4861# pt.1" },
          [3] = { str = "Go in the Inn, make it your home" },
          [4] = { str = "Accept #GETID6028# #GETID6030# and #GETID5601#" },
@@ -368,7 +368,7 @@ Table_003_Alliance_50to60 = {
       --pID = 507, nID = 509,
       --itemCount = 29,
       items = {
-         [1] = { str = "55-56 Burning Steppes" },
+         [1] = { str = "55-56 #ZONEID46#" },
          [2] = { str = "Go to #COORD[83,63]# and follow the path up and grab the FP", x = 83, y = 63, zone = "Burning Steps" },
          [3] = { str = "Accept #GETID3823# and #GETID4283#" },
          [4] = { str = "In front of the broken house, accept #GETID4182# This is the start of the Onyxia key chain" },
@@ -408,7 +408,7 @@ Table_003_Alliance_50to60 = {
       --pID = 508, nID = 510,
       --itemCount = 9,
       items = {
-         [1] = { str = "56-56 Tanaris" },
+         [1] = { str = "56-56 #ZONEID440#" },
          [2] = { str = "Go to the NW side of town and scare sprinkle for #DOID5163# pt.3" },
          [3] = { str = "Make Gadgetzan your home" },
          [4] = { str = "To the south of lost rigger cove at #COORD[70,49]# is a bunch of stones in a circle, Loot the stuff from the blue backpack and use the book to summon Aquementas. He's a level 54 water elemental", x = 70, y = 49, zone = "Tanaris" },
@@ -428,7 +428,7 @@ Table_003_Alliance_50to60 = {
       --pID = 509, nID = 511,
       --itemCount = 42,
       items = {
-         [1] = { str = "56-56 Silithus" },
+         [1] = { str = "56-56 #ZONEID1377#" },
          [2] = { str = "Near the moonwell accept #GETID8284#" },
          [3] = { str = "In front of the Inn, turn in #INID8275# accept #GETID8280#" },
          [4] = { str = "SKIP the quest on the sign unless you get a group" },
@@ -481,7 +481,7 @@ Table_003_Alliance_50to60 = {
       --pID = 510, nID = 512,
       --itemCount = 43,
       items = {
-         [1] = { str = "56-57 Western Plaguelands" },
+         [1] = { str = "56-57 #ZONEID28#" },
          [2] = { str = "Next to the shack accept #GETID5901# pt.1" },
          [3] = { str = "Grab the FP" },
          [3] = { str = "Whenever you come back to camp here always check the vendor for the stormshroud pants recipe. It's like 1.3g and you can easily sell it for 10 or 20g+ It's a limited recipe that restocks 1 every hour." },
@@ -536,7 +536,7 @@ Table_003_Alliance_50to60 = {
       --pID = 511, nID = 513,
       --itemCount = 19,
       items = {
-         [1] = { str = "57-58 Eastern Plaguelands" },
+         [1] = { str = "57-58 #ZONEID139#" },
          [2] = { str = "Run up the west coast to 67,4 and accept the 3 quests #GETID5542# #GETID5543# and #GETID5544#", x = 67, y = 4, zone = "Eastern Plaguelands" },
          [3] = { str = "These are annoying quests that can take a while. Anytime from now until these are done, kill any plaguehound runts, carrion worms, or plaguebats." },
          [4] = { str = "From here on down to the bigger area, kill any dogs, worms, and bats. Focus on them while you head to the next step" },
@@ -568,7 +568,7 @@ Table_003_Alliance_50to60 = {
       --pID = 512, nID = 514,
       --itemCount = 9,
       items = {
-         [1] = { str = "58-58 Western Plaguelands" },
+         [1] = { str = "58-58 #ZONEID28#" },
          [2] = { str = "Go NE to the house at #COORD[49,78]# and go upstairs. Turn in #INID5149# accept #GETID5153#", x = 49, y = 78, zone = "Western Plaguelands" },
          [3] = { str = "Just north of the house at #COORD[49,76]# you'll see an off color gravestone. Loot it and get the wedding ring for #DOID5153#", x = 49, y = 76, zone = "Western Plaguelands" },
          [4] = { str = "Go in the west entrance to Andorhal at #COORD[39,71]#and you should see the only full building, looks like an Inn at #COORD[39,68]#. Go upstairs and turn in #INID5153# accept #GETID5154# also accept #GETID4971#", x = 39, y = 68, zone = "Western Plaguelands" },
@@ -588,7 +588,7 @@ Table_003_Alliance_50to60 = {
       --pID = 513, nID = 515,
       --itemCount = 18,
       items = {
-         [1] = { str = "58-58 Eastern Plaguelands" },
+         [1] = { str = "58-58 #ZONEID139#" },
          [2] = { str = "Run out of here and into EPL up to the NW at 7,43 and turn in the 3 quests #INID5542# #INID5543# and #INID5544# accept #GETID5742# then listen to him and turn it back in. Then accept #GETID5781#", x = 7, y = 43, zone = "Eastern Plaguelands" },
          [3] = { str = "Go to the Undercroft at #COORD[28,86]# and run behind it. Touch the dirt pile to summon Mercutio and 3 guards. Easiest way to do this is to kite him away from his buddies or get a group. Loot his body for the hammer for #DOID5781#", x = 28, y = 86, zone = "Eastern Plaguelands" },
          [4] = { str = "Now go to the bottom of the crypt and kill the very big troll for #DOID6021# Only grab the scroll on the floor if u want" },
@@ -617,7 +617,7 @@ Table_003_Alliance_50to60 = {
       --pID = 514, nID = 516,
       --itemCount = 19,
       items = {
-         [1] = { str = "58-59 Western Plaguelands" },
+         [1] = { str = "58-59 #ZONEID28#" },
          [2] = { str = "Run up to #COORD[51,28]# and accept #GETID6004# pt.1", x = 52, y = 30, zone = "Western Plaguelands" },
          [3] = { str = "Start heading back SW around #COORD[47,32]# and clear your way into the mill. Right click the box and place the termintes, then click the barrel and turn in #INID5902# pt.2 accept #GETID5903# pt.3", x = 47, y = 32, zone = "Western Plaguelands" },
          [4] = { str = "Go just south of #COORD[49,42]# and kill 2 knights and mages for #DOID6004# pt.1 then #COORD[51,43]# for the hunters and medics", x = 49, y = 42, zone = "Western Plaguelands" },
@@ -647,7 +647,7 @@ Table_003_Alliance_50to60 = {
       --pID = 515, nID = 516,
       --itemCount = 31,
       items = {
-         [1] = { str = "59-60 Winterspring" },
+         [1] = { str = "59-60 #ZONEID618#" },
          [2] = { str = "On your left after entering turn in #INID5163# pt.3" },
          [3] = { str = "Near the back are 2 horde, accept #GETID969#" },
          [4] = { str = "Turn around and turn in #INID4808# accept #GETID4809#" },

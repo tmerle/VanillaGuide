@@ -27,7 +27,7 @@ Table_003_Alliance_40to50 = {
       --pID = 312, nID = 402,
       --itemCount = 32,
       items = {
-         [1] = { str = "40-41 Badlands" },
+         [1] = { str = "40-41 #ZONEID3#" },
          [2] = { str = "Go to #COORD[53,43]# accept #GETID706#, #GETID718#, and #GETID719#", x = 53, y = 43, zone = "Badlands" },
          [3] = { str = "Stop at #COORD[42,52]# and hand in #INID1106# accept #GETID1108#", x = 45, y = 52, zone = "Badlands" },
          [4] = { str = "Accept #GETID703#, #GETID705# (if you have them)" },
@@ -70,7 +70,7 @@ Table_003_Alliance_40to50 = {
       --pID = 401, nID = 403,
       --itemCount = 27,
       items = {
-         [1] = { str = "41-41 Swamp of Sorrows" },
+         [1] = { str = "41-41 #ZONEID8#" },
          [2] = { str = "Run into the Swamp of Sorrows, go to #COORD[12,58]# and kill the whelps for #DOID1116# low droprate but they respawn fast", x = 12, y = 58, zone = "Swamp of Sorrows" },
          [3] = { str = "Go to #COORD[26,59]# and accept #GETID1396# and go do it. Kill the 3 mob types around him and north. It's all close to the quest giver", x = 26, y = 59, zone = "Swamp of Sorrows" },
          [4] = { str = "Go up and find Noboru the Cudgel he circles around #COORD[43,38]# and drops an item that starts #GETID1392#", x = 43, y = 38, zone = "Swamp of Sorrows" },
@@ -108,7 +108,7 @@ Table_003_Alliance_40to50 = {
       --pID = 402, nID = 404,
       --itemCount = 16,
       items = {
-         [1] = { str = "41-42 Desolace" },
+         [1] = { str = "41-42 #ZONEID405#" },
          [2] = { str = "Make Nijel's Point your home" },
          [3] = { str = "Accept #GETID261#" },
          [4] = { str = "Go down accept #GETID1466# pt.3" },
@@ -126,15 +126,15 @@ Table_003_Alliance_40to50 = {
          [16] = { str = "Fly to Booty Bay" },
       }
    },
-   -----------42-43 Stranglethron Vale
+   -----------42-43 Stranglethorn Vale
    --[404] = {
    [4243] = {
-      title = "42-43 Stranglethron Vale",
-      --n = "42-43 Stranglethron Vale",
+      title = "42-43 Stranglethorn Vale",
+      --n = "42-43 Stranglethorn Vale",
       --pID = 403, nID = 405,
       --itemCount = 29,
       items = {
-         [1] = { str = "42-43 Stranglethron Vale" },
+         [1] = { str = "42-43 #ZONEID33#" },
          [2] = { str = "Go into the Inn, accept #GETID2864#" },
          [3] = { str = "Make BB your home" },
          [4] = { str = "Accept #GETID621# and #GETID580#" },
@@ -174,7 +174,7 @@ Table_003_Alliance_40to50 = {
       --pID = 404, nID = 406,
       --itemCount = 34,
       items = {
-         [1] = { str = "43-43 Tanaris" },
+         [1] = { str = "43-43 #ZONEID440#" },
          [2] = { str = "Accept #GETID1690# and #GETID1707#" },
          [3] = { str = "Make Gadgetzan your home" },
          [4] = { str = "Go in front of the cage and grab the 2 quests off the sign #GETID2781# and #GETID2875#" },
@@ -219,7 +219,7 @@ Table_003_Alliance_40to50 = {
       --pID = 405, nID = 407,
       --itemCount = 43,
       items = {
-         [1] = { str = "43-45 Feralas" },
+         [1] = { str = "43-45 #ZONEID357#" },
          [2] = { str = "On the water side of the inn in the gazebo, accept #GETID2821#" },
          [3] = { str = "Make Feralas your home" },
          [4] = { str = "Go into the big building across from the Inn, accept #GETID4124# pt.1# and #GETID2866#" },
@@ -273,7 +273,7 @@ Table_003_Alliance_40to50 = {
       --pID = 406, nID = 408,
       --itemCount = 7,
       items = {
-         [1] = { str = "45-46 Uldaman" },
+         [1] = { str = "45-46 #ZONEID1337#" },
          [2] = { str = "Now you can either grind on the gnolls in Feralas around where you found the backpack on the tree, or you can do Uldaman. I highly suggest you do Uldaman. You picked up some quests earlier, there are a few more in IF and in the badlands. If you get a good group build you can easily do just about every quest in there in under 3 hours max. I usually fully do Uldaman inside and out, I don't finish all the quests unless I have to level. 1 full run inside and out should get you 75-100% through this level. I usually do this in about 3 hours no problem. Plus you can solo all the mobs outside of the instance 3 at a time no problem. The end of Uldaman, after the boss, (mini disks quest) gives about 20k xp between that and talking to the ghostly npc who spawns in there, as well as gives some nice xp for quests later on. And you could miss some xp spots for later quests I do if you skip this." },
          [3] = { str = "I don't list all the quests for Uldaman because there is a good handful and you don't have to do them all to fully level, and again it is optional. This is much faster than grinding would be. I really hate to do instances when trying for the best time but alliance has less quests than the horde do and I did mention there will be about 10-15% of grinding on your way to 60. If you did do all instances though you would be really slowed down. This isn't going to put a break in your time with a good group, preferrably guild groups of 45+" },
          [4] = { str = "You can stop at about 75% to 46 but again I suggest you level. It's not as bad as it seems." },
@@ -291,7 +291,7 @@ Table_003_Alliance_40to50 = {
       --pID = 407, nID = 409,
       --itemCount = 29,
       items = {
-         [1] = { str = "46-47 The Hinterlands" },
+         [1] = { str = "46-47 #ZONEID47#" },
          [2] = { str = "Go up to #COORD[11,46]# and turn in #INID1449# accept #GETID1450#", x = 11, y = 46, zone = "The Hinterlands" },
          [3] = { str = "Get the FP at #COORD[11,46]# way up top then go in the cave and turn in #INID1450#, accept #GETID1451# and #GETID2988#", x = 11, y = 46, zone = "The Hinterlands" },
          [4] = { str = "Go into the Inn and turn right, accept #GETID2877# and #GETID2880#" },
@@ -331,7 +331,7 @@ Table_003_Alliance_40to50 = {
       --pID = 408, nID = 410,
       --itemCount = 22,
       items = {
-         [1] = { str = "47-47 Feralas" },
+         [1] = { str = "47-47 #ZONEID357#" },
          [2] = { str = "Make Feathermoon Stronghold your home" },
          [3] = { str = "Go across from the Inn to the 2 story house, turn in #INID2943# accept #GETID2879#" },
          [4] = { str = "Accept #GETID3380# Next to him" },
@@ -364,7 +364,7 @@ Table_003_Alliance_40to50 = {
       --pID = 409, nID = 411,
       --itemCount = 42,
       items = {
-         [1] = { str = "47-48 Tanaris" },
+         [1] = { str = "47-48 #ZONEID440#" },
          [2] = { str = "Just inside Gadgetzan to the right, accept #GETID2605#" },
          [3] = { str = "Make Gadgetzan your home" },
          [4] = { str = "Go behind the Inn, accept #GETID5863#" },
@@ -417,7 +417,7 @@ Table_003_Alliance_40to50 = {
       --pID = 410, nID = 412,
       --itemCount = 8,
       items = {
-         [1] = { str = "48-48 The Hinterlands" },
+         [1] = { str = "48-48 #ZONEID47#" },
          [2] = { str = "Go in the base downstairs to #COORD[14,43]# and turn in #INID3843# accept #GETID4297#", x = 14, y = 43, zone = "The Hinterlands" },
          [3] = { str = "Run up to #COORD[26,48]# and turn in #INID1452# Accept #GETID1469#", x = 26, y = 48, zone = "The Hinterlands" },
          [4] = { str = "Grind down to the lake at #COORD[40,59]# and Violet Tragan (Mushroom) from the bottom of the lake for #DOID2641#", x = 40, y = 59, zone = "The Hinterlands" },
@@ -436,7 +436,7 @@ Table_003_Alliance_40to50 = {
       --pID = 411, nID = 413,
       --itemCount = 27,
       items = {
-         [1] = { str = "48-49 Stranglethorn Vale" },
+         [1] = { str = "48-49 #ZONEID33#" },
          [2] = { str = "Go down to the first floor of the Inn, make it your home" },
          [3] = { str = "Turn in #INID1118# and #INID580#" },
          [4] = { str = "Enter the house next to the upside down, half ship, turn in #INID2874#" },
@@ -474,7 +474,7 @@ Table_003_Alliance_40to50 = {
       --pID = 412, nID = 501,
       --itemCount = 30,
       items = {
-         [1] = { str = "49-50 Blasted Lands" },
+         [1] = { str = "49-50 #ZONEID4#" },
          [2] = { str = "No need to rush through this zone, so grind on anything you see." },
          [3] = { str = "Stop at #COORD[50,14]# and accept the following 5 quests: #GETID2601# #GETID2603# #GETID2581# #GETID2583# and #GETID2585#", x = 50, y = 14, zone = "Blasted Lands" },
          [4] = { str = "You're going to need the following amount of items to complete all 5 of these quests. Snickerfang Jowls:5, Blasted Boar Lungs:6, Scorpok Pincers:6, Basilisk Brain:11, Vulture Gizzards:14 It's going to be like grinding getting all this so you're killing 2 birds with 1 stone. You'll most likely gain half a level before you turn these in." },

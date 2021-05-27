@@ -19,7 +19,7 @@
 --]]--------------------------------------------------
 Table_002_DunMorogh = {
    [0106] = {
-      title = "1-6 Coldridge Valley",
+      title = "1-6 Cold Ridge Valley",
       --L- Needs playtest
       items = {
          [1] = { str = "1-6 #ZONEID132#" },

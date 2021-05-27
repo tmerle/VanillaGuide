@@ -83,7 +83,7 @@ Table_003_Alliance_20to30 = {
       --pID = 202, nID = 204,
       --itemCount = 10,
       items = {
-         [1] = { str = "22-23 Stonetalon Mountains" },
+         [1] = { str = "22-23 #ZONEID406#" },
          [2] = { str = "Run down Stonetalon to the hut at #COORD[58,62]# accept #GETID1093#", x = 58, y = 62, zone = "Stonetalon Mountains" },
          [3] = { str = "Then go to #COORD[59,66]# and turn in #INID1070# pt.1# accept #GETID1085# pt.2.", x = 59, y = 66, zone = "Stonetalon Mountains" },
          [4] = { str = "Turn it in right behind you accept #GETID1071#" },
@@ -135,7 +135,7 @@ Table_003_Alliance_20to30 = {
       --pID = 204, nID = 206,
       --itemCount = 16,
       items = {
-         [1] = { str = "24-25 Ashenvale" },
+         [1] = { str = "24-25 #ZONEID331#" },
          [2] = { str = "Turn in #INID990# right in front of you when you hearth." },
          [3] = { str = "Run to the house on the East side, turn in #INID1034# accept #GETID1035#." },
          [4] = { str = "Run to the West side of town, turn in #INID1134# accept #GETID4581#" },
@@ -162,7 +162,7 @@ Table_003_Alliance_20to30 = {
       --pID = 205, nID = 207,
       --itemCount = 53,
       items = {
-         [1] = { str = "25-27 Wetlands" },
+         [1] = { str = "25-27 #ZONEID11#" },
          [2] = { str = "Stop at the end of the docks, accept #GETID279#" },
          [3] = { str = "On the west side of town accept #GETID484#" },
          [4] = { str = "Go to the top of the castle, accept #GETID464#" },
@@ -226,7 +226,7 @@ Table_003_Alliance_20to30 = {
       --pID = 206, nID = 208,
       --itemCount = 18,
       items = {
-         [1] = { str = "27-28 Lakeshire" },
+         [1] = { str = "27-28 #ZONEID69#" },
          [2] = { str = "Accept #GETID128# right in front of FP near bridge " },
          [3] = { str = "Accept #GETID20# just over bridge on right." },
          [4] = { str = "Go in the town hall, accept #GETID91#" },
@@ -255,7 +255,7 @@ Table_003_Alliance_20to30 = {
       --pID = 207, nID = 209,
       --itemCount = 48,
       items = {
-         [1] = { str = "28-29 Duskwood" },
+         [1] = { str = "28-29 #ZONEID10#" },
          [2] = { str = "Note on Duskwood, it has a few long, pointless chains that you only do a few parts of, then SKIP the rest" },
          [3] = { str = "Follow the road until you get to Darkshire and get FP at #COORD[72,44]#", x = 72, y = 44, zone = "Duskwood" },
          [4] = { str = "Go to the house just south of FP at #COORD[79,47]# accept #GETID174# pt.1 Buy a bronze tube from the gnome engineer just south of here at #COORD[78,48]# and hand it back in, accept #GETID175# pt.2", x = 79, y = 47, zone = "Duskwood" },
@@ -314,7 +314,7 @@ Table_003_Alliance_20to30 = {
       --pID = 208, nID = 210,
       --itemCount = 18,
       items = {
-         [1] = { str = "29-30 Ashenvale" },
+         [1] = { str = "29-30 #ZONEID331#" },
          [2] = { str = "Make Astranaar your home." },
          [3] = { str = "Stop at #COORD[66,56]# and touch the crystal for the first part of #DOID981# pt.6.", x = 66, y = 56, zone = "Ashenvale" },
          [4] = { str = "Kill Withered Ancients for the Wooden Key for #DOID1028# pt.4 around #COORD[55,35]# then use the key on the chest at #COORD[54,35]#", x = 55, y = 35, zone = "Ashenvale" },
@@ -343,7 +343,7 @@ Table_003_Alliance_20to30 = {
       --pID = 209, nID = 301,
       --itemCount = 18,
       items = {
-         [1] = { str = "30-30 Wetlands" },
+         [1] = { str = "30-30 #ZONEID11#" },
          [2] = { str = "Make Menethil Harbor your home." },
          [3] = { str = "Go to #COORD[14,25]# and kill Captain Halyndor for his key on top of the ship, the chest is in the bottom of the ship. Send your pet in to grab all the aggro, then send it out to attack a murloc so it trains them all out. Touch the chest and turn in #INID290# accept #GETID292#", x = 14, y = 25, zone = "Wetlands" },
          [4] = { str = "Touch the catapult at #COORD[47,47]#, hand in #INID465# accept #GETID474#", x = 47, y = 47, zone = "Wetlands" },

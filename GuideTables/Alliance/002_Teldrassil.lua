@@ -22,7 +22,7 @@ Table_002_Teldrassil = {
    [0106] = {
       title = "1-6 Teldrassil",
       items = {
-         [1] = { str = "1-6 Teldrassil" },
+         [1] = { str = "1-6 #ZONEID141#" },
          [2] = { str = "Accept #GETID456# pt.1 from #NPCID2079# just in front og you, and go do it by killing mobs at #COORD[57,45]# and #COORD[61,43]#.", x = 57, y = 45, zone = "Teldrassil" },
          [3] = { str = "Run back to turn it in, then accept #GETID457# pt.2 and #GETEtched Sigil# at #COORD[59,44]#.", x = 59, y = 44, zone = "Teldrassil" },
          [4] = { str = "Get #GETID458# pt.1# at #COORD[60,43]# and #GETA Good Friend# at #COORD[61,42]#.", x = 61, y = 42, zone = "Teldrassil" },
@@ -49,7 +49,7 @@ Table_002_Teldrassil = {
       title = "6-12 Teldrassil",
       --L- Needs playtest
       items = {
-         [1] = { str = "6-12 Teldrassil" },
+         [1] = { str = "6-12 #ZONEID141#" },
          [2] = { str = "Accept #GETID2159# at #COORD[61,47]#", x = 61, y = 47, zone = "Teldrassil" },
          [3] = { str = "Accept #GETID488# at #COORD[60,56]#", x = 60, y = 56, zone = "Teldrassil" },
          [4] = { str = "Make Dolanaar your home." },
