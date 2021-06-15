@@ -281,7 +281,7 @@ Table_003_Horde_20to30 = {
          [21] = { str = "Go to Whitereach Post #COORD[21,32]#, turn in #INID5088# and #INID4770#", x = 21, y = 32, zone = "Thousand Needles" },
          [22] = { str = "You should be level 29 by now, if not grind to level 29, I grind away at centuars around Camp E'Thok #COORD[18,23]#", x = 18, y = 23, zone = "Thousand Needles" },
          [23] = { str = "Then do #DOID5151# (Elite) at #COORD[22,24]#. Clear mobs around the cage, free him and kill him.", x = 22, y = 24, zone = "Thousand Needles" },
-         [24] = { str = "Kill the #NPCID10616#, he drops 'Assassination Note' which starts #GETID4881# Turn in for Easy XP.  Also turn in #INID5151#" },
+         [24] = { str = "Kill the #NPCID10617#, he drops 'Assassination Note' which starts #GETID4881# Turn in for Easy XP.  Also turn in #INID5151#" },
          [25] = { str = "Then do: #DOID4966# " },
          [26] = { str = "If you are not at least 4 bars from level 30, grind until you are.  Then hearth back to Freewind Post." },
          [27] = { str = "Turn in #INID4904# #INID5147# #INID5064#" },
