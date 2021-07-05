@@ -54,7 +54,7 @@ function objGuideTable:new(oSettings)
          questid=strsub(match,startPos+2,endPos-1) -- don't take trailing '#'
 	 local rc=""
 	 -- access directly database raw data since pfSearchQuestID has side effect (shows all quests on map)
-	 if pfDB.quests.loc[tonumber(questid)].T ~= nil then
+	 if pfDB.quests.frFR[tonumber(questid)].T ~= nil then
 	    rc=replacecolor.."["..pfDB.quests.loc[tonumber(questid)].T.."]".."|r"
          else
 	    message "nil"

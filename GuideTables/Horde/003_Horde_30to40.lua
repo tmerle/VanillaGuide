@@ -96,7 +96,7 @@ Table_003_Horde_30to40 = {
       --L- Needs playtest
       items = {
          [1] = { str = "32-34 #ZONEID405#" },
-         [2] = { str = "First thing to do here is start killing mobs at the Thunder Axe Fortress #COORD[55,24]# until #ITEMID6757# dropps, which starts #GETID1480#.", x = 55, y = 24, zone = "Desolace" },
+         [2] = { str = "First thing to do here is start killing mobs at the Thunder Axe Fortress #COORD[55,24]# until #ITEMID20310# dropps, which starts #GETID1480#.", x = 55, y = 24, zone = "Desolace" },
          [3] = { str = "After you got it, go do #DOID5561#, it starts at #COORD[60,61]#.", x = 60, y = 61, zone = "Desolace" },
          [4] = { str = "Then go to Ghost Walker Post #COORD[56,59]#", x = 56, y = 59, zone = "Desolace" },
          [5] = { str = "Turn in #INID1362#, accept #GETID1365#." },
@@ -112,8 +112,8 @@ Table_003_Horde_30to40 = {
          [15] = { str = "Accept all quests at Shadowprey Village at #COORD[24,71]#; #GETID5763#, #GETID5381#, #GETID6142# and #GETID6143# ", x = 24, y = 71, zone = "Desolace" },
          [16] = { str = "Make Shadowprey Village your home." },
          [17] = { str = "Go in the water and collect 10 #ITEMID13545#, from the Shellfish traps." },
-         [18] = { str = "Turn those in at #NPCID11317# for 2 #ITEMID13545#." },
-         [19] = { str = "Travel up the water, collecting #ITEMID15923# for the quest #DOID6142# along the way" },
+         [18] = { str = "Turn those in at #NPCID11317# for 2 #ITEMID13546#." },
+         [19] = { str = "Travel up the water, collecting #ITEMID15924# for the quest #DOID6142# along the way" },
          [20] = { str = "Accept #GETID6161# at the chest/wrecked boat along the shore, #COORD[36,30]#. The #ITEMID15878# is dropped by a #NPCID11562#, #NPCID11563#, and the #ITEMID15881# is dropped by a #NPCID4711#.", x = 36, y = 30, zone = "Desolace" },
          [21] = { str = "Go accept #GETID5741# from #NPCID11863# at #COORD[38,27]#", x = 38, y = 27, zone = "Desolace" },
          [22] = { str = "Then go to Thunder Axe Fortress #COORD[54,29]# and do #DOID1435#, #DOID5741# and #DOID5381#.", x = 54, y = 29, zone = "Desolace" },
@@ -149,8 +149,8 @@ Table_003_Horde_30to40 = {
       items = {
          [1] = { str = "34-35 #ZONEID33#" },
          [2] = { str = "Turn in #INID1178# pt.2, accept #GETID1178# pt.3 Make Booty Bay your home! Accept #GETID605#, #GETID189#, #GETID213# and #GETID201#. Turn in #INID1178# pt.3 at #NPCID2496#, accept #GETID1178# pt.4." },
-         [3] = { str = "Fly to Grom'gol, and grab all the quests there; #GETID568#, #GETID570#, #GETBloodscalp Insight#, #GET581#, #GETID638#, #GETID596#, #GETID629#." },
-         [4] = { str = "Make sure you save any #ITEMID2575# pages you find and mail them to your alt for storage, you will need them for a later quest." },
+         [3] = { str = "Fly to Grom'gol, and grab all the quests there; #GETID568#, #GETID570#, #GETBloodscalp Insight#, #GETID581#, #GETID638#, #GETID596#, #GETID629#." },
+         [4] = { str = "Make sure you save any #ITEMID2725# pages you find and mail them to your alt for storage, you will need them for a later quest." },
          [5] = { str = "You will need following: Chapter 1: 1, 4, 6 and 8. Chapter 2: 10, 11, 14 and 16. Chapter 3: 18, 20, 21 and 24. Chapter 4: 25, 26, and 27." },
          [6] = { str = "Do #DOID605# at #COORD[25,19]#", x = 25, y = 19, zone = "Stranglethorn Vale" },
          [7] = { str = "Do #DOID185#, killing #NPCID1085# at #COORD[31,19]#", x = 31, y = 19, zone = "Stranglethorn Vale" },
@@ -209,7 +209,7 @@ Table_003_Horde_30to40 = {
          [3] = { str = "Then turn them in and accept #GETID545# and #GETID557#, doing them a bit further north then the last two." },
          [4] = { str = "Once they are both completed, die on purpose, so you end up at Tarren Mill." },
          [5] = { str = "Turn them in, then fly to Undercity." },
-         [6] = { str = "Once in Undercity, turn in #INID1164# and buy 3x#ITEMID3731#" },
+         [6] = { str = "Once in Undercity, turn in #INID1164# and buy 3x#ITEMID3713#" },
          [7] = { str = "Get on zeppelin to Orgrimmar." },
          [8] = { str = "Once in Orgrimmar, turn in #INID1431# at #NPCID5640# at #COORD[21,53]#", x = 21, y = 53, zone = "Orgrimmar" },
          [9] = { str = "Fly to Crossroads, making it your home." },
@@ -241,7 +241,7 @@ Table_003_Horde_30to40 = {
          [4] = { str = "Do #DOID1201# and #DOID1251# pt.3. Do #DOID1177# at #COORD[58,23]#", x = 58, y = 23, zone = "Dustwallow Marsh" },
          --L- Is Hungry available elysium?
          [5] = { str = "Stop at Jarl's cabin #COORD[55,25]#, get #GETID1238# by clicking the dirt mound next to his cabin, turn in #INID1218# and accept #GETID1206#.", x = 55, y = 25, zone = "Dustwallow Marsh" },
-         [6] = { str = "Go south at #COORD[54,56]# to retrive the #ITEMID5861# for Razzeric.", x = 54, y = 56, zone = "Dustwallow Marsh" },
+         [6] = { str = "Go south at #COORD[54,56]# to retrive the #ITEMID5862# for Razzeric.", x = 54, y = 56, zone = "Dustwallow Marsh" },
          [7] = { str = "Do #DOID1206#." },
          [8] = { str = "Do the escort quest #DOID1222# that starts at #COORD[47,18]#.", x = 47, y = 18, zone = "Dustwallow Marsh" },
          [9] = { str = "Stop at Brackenwall Village and turn in all quests, accept new ones. Turn in #INID1177#" },
